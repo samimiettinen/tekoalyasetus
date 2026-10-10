@@ -1,6 +1,6 @@
 # Vanhan politiikan tarkistuslista
 
-Käy lista läpi päivityspolun vaiheessa 3. Rivit kuvaavat tyypillisiä väitteitä, jotka vanhenevat tai menevät väärin tekoälyasetuksen käyttöpolitiikoissa. Älä kopioi oikeaa tilaa tästä listasta suoraan politiikkaan, vaan hae se aina työkalulla, jotta tulos on ajantasainen ja lähteistetty. Tulkinnat on merkitty erikseen.
+Käy lista läpi päivityspolun vaiheessa 3. Rivit kuvaavat tyypillisiä väitteitä, jotka vanhenevat tai menevät väärin tekoälyasetuksen käyttöpolitiikoissa. Vertaa väitteet työkalun käyttämään säädösaineistoon ja kirjaa sen versio. Työkalu ei hae päivityksiä verkosta. Tarkista ajantasaisuus virallisista lähteistä, jos verkkohaku on käytettävissä; muuten ilmoita tämä rajaus. Tulkinnat on merkitty erikseen.
 
 ## Oikeusperusta ja aikataulu
 
@@ -25,6 +25,8 @@ Käy lista läpi päivityspolun vaiheessa 3. Rivit kuvaavat tyypillisiä väitte
 | Työntekijän tiedonsaanti perustuu 26 art. 11 kohtaan | Kohta koskee liitteen III suuririskisiä järjestelmiä. Nykyinen peruste on yleensä tietosuoja-asetus. | `velvoitteet` |
 | Käyttöönottaja raportoi viranomaiselle 73 artiklan mukaan | 73 artikla on suuririskisen järjestelmän tarjoajan velvoite; käyttöönottajan velvoite on 26 art. 5 kohdassa ja koskee suuririskisiä. | `hae_artikla` (73) |
 | Organisaatio voi olla ”osittain tarjoaja” tai ”kevyt mukauttaja” | Rooli ei jakaudu osiin. Tarjoajarooli syntyy 3 art. 3 alakohdan tai 25 art. 1 kohdan perusteella. | `hae_artikla` (25) |
+| Sisäinen käyttö sulkee tarjoajaroolin pois | Tarkista kehittäminen tai kehityttäminen ja käyttöönotto omalla nimellä myös omaan käyttöön (3 art. 3 ja 11 alakohta) sekä 25 artiklan roolinvaihdot. | `hae_artikla` (3, 25), `roolit-ja-velvoitteet`-skill |
+| Puuttuva tieto tarkoittaa ”ei käytössä” tai ”ei velvoitetta” | Tuntematon tosiseikka jää avoimeksi. Työkalun `null` säilytetään ratkaisemattomana; ehdollista velvoitetta ei poisteta. | `luokittele` (`puuttuvat_tiedot`, `oletukset`) |
 | Tarjoajan velvoitteiksi listataan ilmoituksia tai rekisteröintejä | Tarkista velvoitteen artikla ja koskeeko se suuririskisiä vai yleiskäyttöisiä malleja. | `velvoitteet` (tarjoaja, gpai_tarjoaja) |
 
 ## Seuraamukset ja valvonta
@@ -41,7 +43,7 @@ Käy lista läpi päivityspolun vaiheessa 3. Rivit kuvaavat tyypillisiä väitte
 |---|---|
 | Kokousten litterointi- tai yhteenvetotyökalu | Päätteleekö työkalu tunteita, sävyä tai sitoutumista äänestä tai videosta (5 art. 1 kohdan f alakohta)? Tallentaako se äänijälkiä puhujien tunnistamiseen? Tulkinta: äänijäljillä tehtävä tunnistaminen voi kuulua liitteen III kohtaan 1 a; tarkista toimittajan sopimus ja asetukset. |
 | Agentit, liittimet ja liitännäiset | Puuttuvatko ne inventaariosta? Kirjaa jokainen omaksi rivikseen: pääsy, datan siirto, itsenäiset toimenpiteet. |
-| Sisäisiä ratkaisuja tarjotaan konsernin tai verkoston muille yhtiöille | Tulkinta: erillinen oikeushenkilö on ulkopuolinen, joten tarjoaminen omalla nimellä voi tehdä organisaatiosta tarjoajan. Kirjaa tarjoajaportti. |
+| Oma järjestelmä otetaan sisäiseen käyttöön tai toimitetaan muille | Arvioi tarjoajarooli jo omassa käyttöönotossa; tarkista myös toimitukset muille oikeushenkilöille, kuten konserni- tai verkostoyhtiöille. Pelkkä valmiin työkalun käyttö ei yksin osoita tarjoajaroolia. |
 | Komission ohjeet tai käytännesäännöt esitetään sitovina | Ohjeet ja käytännesäännöt ovat yleensä vapaaehtoisia tulkinta-apuja. Tarkista ajantasainen tila komission sivuilta. |
 | Hyväksytty työkalu ei ole enää käytössä tai uusi työkalu puuttuu | Vertaa politiikan työkaluluetteloa inventaarioon ja käyttäjän antamiin tietoihin. |
 

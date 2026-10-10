@@ -12,6 +12,7 @@ Periaatteet koskevat kaikkia, jotka käyttävät tekoälyä organisaation lukuun
 
 - Käytä vain hyväksyttyjä työkaluja: [luettelo tai linkki inventaarioon].
 - Uuden työkalun tai tekoälytoiminnon käyttöönotto kulkee hankintaportin kautta: [kuka hyväksyy].
+- Myös itse kehitetyistä tai kehitytetyistä järjestelmistä arvioidaan tarjoajarooli ennen käyttöönottoa omalla nimellä, vaikka käyttö olisi sisäistä (3 art. 3 ja 11 alakohta). Tarkistus kattaa myös muille toimittamisen sekä 25 artiklan mukaiset roolinvaihdot. Rooli, peruste ja avoimet tiedot: [järjestelmäkohtainen arvio].
 
 ## 3. Tiedot
 

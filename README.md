@@ -44,6 +44,8 @@ Lisäksi resurssit `tekoalyasetus://aikataulu`, `liite-iii`, `kiellot`, `velvoit
 
 Aloittamiseen riittää tehtävän kuvaus. Esimerkiksi: ”Arvioi tämän palvelukuvauksen tekoälyriskit”, ”Tee yhdistykselle käyttöperiaatteet” tai ”Kokoa kunnan sovellusluettelosta tekoälyinventaario”. Avustaja käyttää saatavilla olevia tietoja ja tuottaa luonnoksen ilman pakollista kysymyskierrosta tai ulkopuolista asiantuntijaa. Puuttuvat tiedot jäävät näkyviin täydennystarpeina. Toimittajakyselyt ovat tarvittaessa laadittavia luonnoksia, eivät työn aloittamisen edellytys.
 
+Kevyet tarkentavat kysymykset ovat mahdollisia, kun järjestelmän rooli, käyttötarkoitus tai velvoite riippuu puuttuvasta tiedosta. Vastaamatta jäänyt asia säilyy avoimena myös käyttöpolitiikan päivitys- ja luontipolussa. Oman järjestelmän tarjoajarooli arvioidaan myös sisäisessä käyttöönotossa omalla nimellä (3 artiklan 3 ja 11 alakohta), ei vain muille toimitettaessa.
+
 Luokittelun syötteessä tuntematon kenttä jätetään pois. `false` tarkoittaa vahvistettua kielteistä vastausta ja `[]` arvioitua tyhjää luetteloa. Puuttuva avainsanaosuma ei vahvista kielteistä vastausta. Tyhjä `luokittele`-syöte antaa riskiluokan `ei_arvioitavissa` ja tilan `tiedot_eivat_riita`. Tunnettuihin tietoihin perustuva kielto tai suuririskisyys tuodaan esiin myös silloin, kun muu arvio on `alustava`. `kielletty`- ja `suuririskinen`-kenttien `null` tarkoittaa, ettei kyseistä asiaa voida ratkaista annetuista tiedoista.
 
 Arvioon sisältyvät `puuttuvat_tiedot`, `oletukset` ja `arviointiperusta`. Viimeinen sisältää käytetyn syötteen, arviointipäivän, plugarin version, aineiston ja sääntöjen SHA-256-tunnisteet sekä lähdelinkit. Päivämäärän oletus on palvelimen nykyinen päivä; anna se erikseen toistettavaa arviota varten. Tallenna arviointiperusta luokitusmuistion yhteyteen. Palvelin ei tallenna käyttötapauksia tai muodosta verkkoyhteyksiä.
@@ -131,7 +133,7 @@ MCP tukee nykyversiota 2026-07-28 (`server/discover` ja pyyntökohtainen `_meta`
 | 2.12.2027 | Liitteen III suuririskiset järjestelmät |
 | 2.8.2028 | Liitteen I suuririskiset järjestelmät |
 
-Ajantasainen tila työkalulla `aikataulu`.
+Mukana olevan säädösaineiston mukainen tila annettuna päivänä työkalulla `aikataulu`. Työkalun ajo ei tarkista verkosta uusia säädöksiä.
 
 ## Lähteet
 
@@ -139,10 +141,24 @@ Kokoelma käyttää vain virallisia lähteitä: EUR-Lex (asetukset (EU) 2024/168
 
 ### Tunnetut rajoitukset
 
-- Kansallisen lain ajantasaisuutta ei voitu varmistaa 10.10.2026: Finlexin ajantasainen sivu palautti tarkistuksessa vain sivurungon. Laki 1377/2025 ei alkuperäisessä muodossaan huomioi muutosasetusta (esim. uudet kiellot b a ja b b, koneasetuksen siirto liitteen I B-jaksoon, pienet midcap-yritykset). Tarkista kansallisen lain muutokset Finlexistä.
+- Finlexin tavallinen verkkosivu voi palauttaa pelkän sivurungon. Lähdeseuranta lukee siksi ajantasaisen lain virallisesta XML-rajapinnasta. Alkuperäisen lain 1377/2025 ja muutosasetuksen suhde (esim. uudet kiellot b a ja b b, koneasetuksen siirto liitteen I B-jaksoon, pienet midcap-yritykset) edellyttää sisällöllistä tarkistusta; onnistunut XML-haku ei yksin vahvista mukana olevia kansallisia sääntöjä ajantasaisiksi.
 - Vanhojen suuririskisten järjestelmien 111 artiklan 2 kohdan siirtymästä annetaan huomautus. Velvoitelistan päivämäärät ovat luokan yleisiä päivämääriä: lopullinen soveltuminen edellyttää myös rakenteen muutosten ja viranomaiskäytön selvittämistä.
 - Komission ohjeet ja käytännesäännöt eivät ole sitovaa oikeutta, ja niitä julkaistaan jatkuvasti. Tarkista ajantasainen tilanne komission sivuilta.
 - Avainsanaehdotukset (`ehdota_kayttotapaus`) ovat apuväline. Puuttuva osuma ei tarkoita, ettei säännös koskisi järjestelmää.
+
+### Automaattinen lähdeseuranta
+
+[Lähdeseuranta](.github/workflows/lahdeseuranta.yml) ajetaan main-haarasta maanantaisin klo 6.23 UTC ja tarvittaessa käsin Actions-näkymästä. Se vertaa virallisten lähteiden sisältöä tallennettuihin teksteihin ja SHA-256-tunnisteisiin. EU:n alkuperäinen asetus ja muutosasetus luetaan Cellarista, uudet muutos-, oikaisu- ja konsolidointiviitteet Cellarin SPARQL-rajapinnasta ja kansallinen laki Finlexin `fin@latest`-rajapinnasta. Lisäksi seurataan asetuksiin liittyviä viranomaissivuja ja niiden virallisia linkkejä. Tarkka kattavuus on [seuranta/lahteet.json](seuranta/lahteet.json)-tiedostossa; seuranta ei kata kaikkia mahdollisia julkaisuja tai linkitettyjen liitteiden sisältöä.
+
+Muutos tuottaa vertailutekstit ja lähteistetyn tarkistusraportin samaan luonnos-PR:ään. Muuttumaton sisältö ei tuota uusia committeja. Epäonnistunut haku säilyttää aiemman vertailun ja merkitsee ajon epäonnistuneeksi, vaikka muiden lähteiden muutokset saadaan ehdotukseen. HTTP 200, tyhjä sivurunko tai selainhaaste ei kelpaa onnistuneeksi sisältötarkistukseksi. Ajon lähdekohtainen raportti hakuajankohtineen säilytetään Actions-artifactina 30 päivää.
+
+Automaatio valmistelee muutokset tarkistettaviksi. Ylläpitäjä arvioi niiden vaikutukset säädösdataan, luokittelusääntöihin, skilleihin ja pohjiin. Lähdetekstin haku tai vertailun hyväksyminen ei muuta oikeudellisia tarkistuspäiviä eikä asennettujen plugarien sisältöä. Päivitetty plugari saadaan asentamalla uusi versio. Seurannan tekstit ovat lähdeaineistoa, eivät avustajalle annettuja ohjeita.
+
+Käyttöönotto toisessa repossa: salli **Settings → Actions → General → Allow GitHub Actions to create and approve pull requests** ja pidä ajastetut työnkulut käytössä. Työnkulku käyttää repon `GITHUB_TOKEN`-tunnusta eikä tarvitse erillistä avainta tai maksullista palvelua. Se voi avata ja päivittää PR:n, mutta ei hyväksy tai yhdistä sitä. GitHub voi edellyttää automaation avaaman PR:n CI-ajon hyväksymistä; seuranta ajaa validoinnin ja testit myös itse ennen PR:n julkaisua. Katso [GitHubin token-ohje](https://docs.github.com/en/actions/tutorials/authenticate-with-github_token) ja [työnkulkujen käynnistäminen](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow).
+
+Haara `automaattinen/lahdeseuranta` on varattu automaatiolle. Tee sisällöllinen korjaus omassa tehtävähaarassa: automaatio pysähtyy, jos sen haarassa on käsin tehtyjä committeja tai muita tiedostoja. Päivitys käyttää `--force-with-lease`-suojausta, jotta rinnakkaista muutosta ei korvata. Jos lähde palautuu main-haaran sisältöön, ylläpitäjä tarkistaa aiemman avoimen PR:n. Julkaisurajapintojen viiveet ja GitHubin ajastuksen viiveet ovat mahdollisia.
+
+Rajapintojen viralliset ohjeet: [Cellarin tietograafi](https://op.europa.eu/en/web/cellar/cellar-data/metadata/knowledge-graph) ja [Finlexin integraation pikaopas](https://www.finlex.fi/fi/avoin-data/integraation-pikaopas).
 
 ## Kehitys
 
@@ -151,10 +167,11 @@ npm test                 # node --test, ei riippuvuuksia
 npm run validoi          # manifestit, skillit, data ja pohjat
 npm run generoi-codex     # generoi Codex-manifestit Claude-metatiedoista
 node scripts/generoi-codex.mjs --tarkista # tarkistaa generoitujen tiedostojen ajantasaisuuden
-npm run tarkista-lahteet # lähdeosoitteiden saatavuus
+npm run tarkista-lahteet # sisällön ja muutosviitteiden vertailu, ei kirjoituksia
+node scripts/tarkista-lahteet.mjs --paivita --raportti=/polku/raporttiin # päivitä vain seurannan vertailuaineisto
 ```
 
-CI ajaa testit Node 18:lla, 20:lla ja 22:lla sekä lähdetarkistuksen kuukausittain.
+CI ajaa testit Node 18:lla, 20:lla ja 22:lla. Lähdeseuranta toimii omassa viikoittaisessa työnkulussaan. Lähdetarkistuksen paluukoodit: 0 = tarkistus onnistui (päivitystilassa vertailu kirjoitettu), 1 = tarkistus jäi puutteelliseksi, 2 = lukuajo löysi muutoksia. Testit toimivat ilman verkkoa.
 
 Muutosehdotukset ovat tervetulleita. Säädösviittauksen muutoksiin liitetään aina virallinen lähde.
 

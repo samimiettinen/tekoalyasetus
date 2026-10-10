@@ -1,0 +1,23 @@
+# Cellarin dokumentoitu SPARQL-rajapinta ja CDM-suhteet.
+# Molemmat suunnat kattavat myös myöhemmin julkaistut muutokset ja oikaisut.
+PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT DISTINCT ?kohde ?suunta ?suhde ?asiakirja ?celex WHERE {
+  VALUES ?kohde {
+    <http://publications.europa.eu/resource/celex/32024R1689>
+    <http://publications.europa.eu/resource/celex/32026R1744>
+  }
+  ?perusta owl:sameAs ?kohde .
+  {
+    BIND("kohde" AS ?suunta)
+    ?asiakirja owl:sameAs ?kohde .
+  } UNION {
+    { ?perusta ?suhde ?asiakirja . BIND("ulos" AS ?suunta) }
+    UNION
+    { ?asiakirja ?suhde ?perusta . BIND("sisaan" AS ?suunta) }
+  }
+  FILTER(?suunta = "kohde" || (STRSTARTS(STR(?suhde), STR(cdm:)) && REGEX(STR(?suhde), "amend|correct|repeal|consolidat|based_on", "i")))
+  OPTIONAL { ?asiakirja cdm:resource_legal_id_celex ?celex }
+}
+ORDER BY ?kohde ?suunta ?suhde ?asiakirja ?celex
+LIMIT 1000

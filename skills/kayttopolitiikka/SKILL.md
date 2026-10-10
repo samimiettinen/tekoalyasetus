@@ -1,13 +1,13 @@
 ---
 name: kayttopolitiikka
-description: "Päivittää organisaation olemassa olevan tekoälyn käyttöpolitiikan tai laatii uuden. Interaktiivinen: valitsee päivitys- tai luontipolun, kysyy vain puuttuvat tiedot ja jatkaa oletuksilla, jos vastauksia ei tule. Päivityspolku tarkistaa vanhan politiikan ja sen liitteiden väitteet asetusta (EU) 2024/1689, muutosasetusta (EU) 2026/1744 ja lakia 1377/2025 vasten ja tuottaa muutosraportin, uuden version ja saatteen. Luontipolku rakentaa politiikan, inventaarion, koulutusrungon ja pikaoppaan. Käytä, kun käyttäjä pyytää tekoälypolitiikan, AI-politiikan, käyttöohjeen tai AI Act -paketin päivitystä, tarkistusta tai laatimista. Use for creating, reviewing or updating an AI use policy under the EU AI Act."
+description: "Päivittää organisaation olemassa olevan tekoälyn käyttöpolitiikan tai laatii uuden. Valitsee päivitys- tai luontipolun ja kysyy vain ratkaisevat puuttuvat tiedot; vastaamatta jääneet tosiseikat säilyvät avoimina. Päivityspolku tarkistaa politiikan ja sen liitteet mukana olevan säädösaineiston sekä saatavilla olevien virallisten lähteiden perusteella ja tuottaa muutosraportin, uuden version ja saatteen. Luontipolku rakentaa politiikan, inventaarion, koulutusrungon ja pikaoppaan. Käytä, kun käyttäjä pyytää tekoälypolitiikan, AI-politiikan, käyttöohjeen tai AI Act -paketin päivitystä, tarkistusta tai laatimista. Use for creating, reviewing or updating an AI use policy under the EU AI Act."
 ---
 
 # Tekoälyn käyttöpolitiikka: päivitys tai uusi
 
 Lue ensin yhteinen työskentelyohje `../kayttoohje.md`.
 
-Tavoite: organisaatiolle ajantasainen, oikeudellisesti paikkansapitävä ja organisaation kokoon mitoitettu tekoälyn käyttöpolitiikka. Skillissä on kaksi polkua:
+Tavoite: organisaation toimintaan ja kokoon mitoitettu, lähteistetty käyttöpolitiikan luonnos. Kerro käytetyn säädösaineiston versio ja ajantasaisuuden tarkistuksen rajat. Skillissä on kaksi polkua:
 
 - **A. Päivityspolku:** organisaatiolla on jo politiikka tai AI Act -paketti, joka tarkistetaan ja päivitetään.
 - **B. Luontipolku:** politiikkaa ei ole, tai vanha korvataan kokonaan uudella.
@@ -19,8 +19,8 @@ Hallintamallin laajemmat osat (vastuut, hankintaportti, hallitusraportointi) ova
 Skill on interaktiivinen, mutta kysymykset eivät ole pakollisia.
 
 - **Kysy vain, mitä aineistosta ei selviä.** Poimi ensin kaikki tiedot liitetyistä asiakirjoista ja käyttäjän viestistä.
-- **Enintään neljä kysymystä kerrallaan.** Jos käyttöliittymässä on valintakysymystyökalu, käytä sitä, ja anna jokaiselle kysymykselle suositeltu oletus. Muuten kysy tekstinä numeroituna luettelona.
-- **Jatka oletuksilla.** Jos käyttäjä ei vastaa, ohittaa kysymyksen tai työ tehdään ajastettuna, käytä alla olevia oletuksia, kirjaa ne tuloksen alkuun kohtaan ”Oletukset” ja jatka. Älä pysäytä työtä vastausta odottamaan.
+- **Kysy kevyesti.** Kysy enintään kolme ratkaisevaa kysymystä kerrallaan käyttöliittymän tukemalla tavalla. Tosiseikkakysymyksen vaihtoehtoihin kuuluu ”Ei tiedossa”; älä suosittele kielteistä vastausta ilman näyttöä. Anna käyttäjälle tilaisuus vastata ja jatka sillä välin riippumatonta työtä.
+- **Säilytä puuttuvat tiedot avoimina.** Jos vastausta ei saada, ohitetaan tai työ tehdään ajastettuna, merkitse tosiseikka ”Ei tiedossa”. Älä muuta sitä arvoksi `false`, tyhjäksi luetteloksi tai vahvistetuksi rooliksi. Esitä siitä riippuva velvoite tai johtopäätös ehdollisena ja jatka luonnoksen muita osia. Oletuksia saa käyttää työn muotoon, polkuun ja rakenteeseen; kirjaa ne erilleen tosiseikoista.
 - **Älä kysy oikeudellisia tosiasioita.** Päivämäärät, artiklat, euromäärät ja viranomaiset haetaan työkaluilla, ei käyttäjältä.
 - **Näytä eteneminen.** Kerro polun alussa vaiheet ja tuotokset, ja toimita väliraportti ennen raskasta tiedostotyötä, jotta käyttäjä voi muuttaa suuntaa.
 
@@ -39,18 +39,20 @@ Kysy samalla kierroksella tarvittaessa tuotosten muoto: säilytetäänkö alkupe
 
 ## Organisaation perustiedot
 
-Molemmat polut tarvitsevat nämä tiedot. Poimi ne aineistosta ja kysy puuttuvat yhdellä kierroksella.
+Molemmat polut tarvitsevat nämä tiedot. Poimi ne aineistosta. Kysy vain puuttuvat tiedot, jotka ratkaisevat käsiteltävän järjestelmän roolin, riskin tai velvoitteen; kokoa muut täydennystarpeiksi.
 
-| Tieto | Miksi | Oletus, jos tieto puuttuu |
+| Tieto | Miksi | Menettely, jos tieto puuttuu |
 |---|---|---|
 | Organisaation nimi ja toimiala | Politiikan kohdistus, toimialan erityissääntely (esim. sisäpiiritieto) | Täydennettävä |
-| Koko: pk-yritys (suositus 2003/361/EY), pieni midcap vai suuri; liikevaihto | Seuraamusmaksun enimmäismäärä (`seuraamus`) | Lasketaan suuren yrityksen säännöllä ja merkitään avoimeksi |
-| Julkisoikeudellinen tai julkisia palveluja tarjoava | Perusoikeusarviointi (27 art.) | Ei |
+| Koko: pk-yritys (suositus 2003/361/EY), pieni midcap vai suuri; liikevaihto | Seuraamusmaksun enimmäismäärä (`seuraamus`) | Ei tiedossa; esitä kokoluokkien säännöt ehdollisina, älä laske organisaatiokohtaista enimmäismäärää puuttuvilla tiedoilla |
+| Julkisoikeudellinen tai julkisia palveluja tarjoava | Perusoikeusarviointi (27 art.) | Ei tiedossa; jätä tuntematon luokittelukenttä pois ja säilytä erikseen selvitetty tieto |
 | Käytössä olevat tekoälytyökalut, agentit ja liittimet | Hyväksyttyjen työkalujen luettelo ja inventaario | Täydennettävä; ei arvata tuotenimiä |
-| Tarjotaanko tekoälyratkaisuja ulkopuolisille omalla nimellä | Tarjoajarooli (3 art. 3 alakohta, 25 art.) | Ei; politiikkaan kirjataan tarjoajaportti |
-| Rekrytointi-, HR- tai luottokäyttö | Liitteen III suuririskisyys | Ei käytössä; politiikka edellyttää erillistä hyväksyntää |
+| Kehitetäänkö tai kehitytetäänkö järjestelmiä ja otetaanko niitä omaan käyttöön tai saatetaanko markkinoille omalla nimellä; muutetaanko hankittuja järjestelmiä | Tarjoajarooli (3 art. 3 ja 11 alakohta, 25 art.) | Ei tiedossa; rooli avoimeksi ja tarjoajan sekä käyttöönottajan velvoitteet tarvittaessa ehdollisina |
+| Rekrytointi-, HR- tai luottokäyttö ja muut liitteen III käyttötarkoitukset | Liitteen III suuririskisyys | Ei tiedossa; avoin inventaariokohta. Ehdotettu hyväksyntämenettely ei osoita nykyisen käytön puuttumista |
 | Kokousten litterointi tai muu ääntä tai kuvaa käsittelevä työkalu | Tunteiden päättely (5 art. 1 kohdan f alakohta), biometriikka | Selvitetään toimittajalta; avoin tarkistus |
 | Politiikan hyväksyjä ja omistaja | Hyväksyntäketju | Hyväksyntäkohta jää täytettäväksi |
+
+**Tarjoajaroolin tarkistus molemmissa poluissa:** käytä `roolit-ja-velvoitteet`-skilliä järjestelmäkohtaisesti. Oma kehitys tai kehityttäminen ja käyttöönotto omalla nimellä voi täyttää tarjoajan määritelmän myös organisaation sisäisessä käytössä (3 art. 3 ja 11 alakohta). Tarkista lisäksi 25 artiklan roolinvaihdot: suuririskisen järjestelmän uudelleenbrändäys tai olennainen muuttaminen sekä käyttötarkoituksen muutos, joka tekee järjestelmästä suuririskisen. Pelkkä valmiin työkalun käyttö tai mallirajapinnan kutsuminen ei yksin osoita tarjoajaroolia. Kirjaa politiikkaan tarkistus ennen omaa käyttöönottoa, muille toimittamista ja näitä muutoksia. Puuttuva ulkopuolinen asiakas ei ratkaise roolia.
 
 ## Polku A: päivitys
 
@@ -77,14 +79,16 @@ Molemmat polut tarvitsevat nämä tiedot. Poimi ne aineistosta ja kysy puuttuvat
 3. **Mitoitus.** Valitse taso:
    - **Kevyt:** ei suuririskisiä käyttötapauksia, alle 50 henkeä. Politiikka 3–5 sivua, inventaario taulukkona, koulutus yksi tunti.
    - **Laaja:** suuririskisiä käyttötapauksia, säännelty toimiala tai suuri organisaatio. Lisäksi `hallintamalli`, `roolit-ja-velvoitteet` ja tarvittaessa `perusoikeusarviointi`.
+   - Jos koko tai käyttötapaukset ovat avoinna, laadi alustava runko ja merkitse mitoitus tarkistettavaksi. Lyhyt luonnos ei tarkoita vahvistettua vähäistä riskiä. Sivumäärä ja koulutuksen kesto ovat suunnitteluehdotuksia.
 4. **Politiikka.** Laadi pohjalla `../../pohjat/kayttoperiaatteet.md`. Sisällytä vähintään: soveltamisala (myös agentit ja liittimet), hyväksytyt työkalut ja hankintaportti, tietoluokat, ihmisen vastuu, kielletyt käytännöt ajantasaisina (`hae_artikla` artikla "5"), avoimuus roolin mukaan (`avoimuus`-skill), tekoälylukutaidon tukeminen (4 art.), poikkeamat, tarjoajaportti, sääntelyseuranta ja seuraamukset organisaation kokoluokan mukaan.
 5. **Käyttöönottoaineisto.** Inventaario (`../../pohjat/tekoalyinventaario.csv`), koulutusrunko roolin mukaan, kaksisivuinen pikaopas ja saate. Avoimuusilmoitukset tarvittaessa (`../../pohjat/avoimuusilmoitukset.md`), toimittajakysely uusille työkaluille (`../../pohjat/toimittajakysely.md`).
 6. **Väliraportti ja viimeistely.** Näytä politiikan rakenne ja keskeiset valinnat ennen koko aineiston tuottamista. Viimeistele vastausten tai oletusten perusteella.
 
 ## Molempien polkujen lopputarkistus
 
-- Jokainen päivämäärä, artikla, euromäärä ja viranomainen on tarkistettu työkalulla tai mukana olevasta aineistosta.
+- Jokaisella päivämäärällä, artiklalla, euromäärällä ja viranomaisella on lähde. Erota mukana olevaan aineistoon vertaaminen verkossa tehtävästä ajantasaisuustarkistuksesta; työkalun ajo ei päivitä sen säädösaineistoa.
 - Velvoitteet on kohdistettu oikealle roolille: tarjoajan velvoitteita ei esitetä käyttöönottajan velvoitteina.
+- Sisäinen käyttö on mukana tarjoajaroolin arvioinnissa. Tuntematon rooli, julkisen palvelun asema tai käyttötarkoitus ei ole muuttunut kielteiseksi vastaukseksi.
 - Organisaation omat säännöt on erotettu lakisääteisistä vaatimuksista.
 - Asiakirjat ovat keskenään johdonmukaisia.
 - Avoimet kohdat ja oletukset on lueteltu saatteessa.
@@ -102,4 +106,4 @@ Molemmat polut tarvitsevat nämä tiedot. Poimi ne aineistosta ja kysy puuttuvat
 - Älä esitä poliittista sopua, ehdotusta tai hallituksen esitystä voimassa olevana oikeutena.
 - Älä poista organisaation omia, lakia tiukempia sääntöjä; erota ne lakisääteisistä.
 - Älä keksi vastuuhenkilöitä, hyväksyntöjä, sopimusehtoja tai työkalujen ominaisuuksia. Merkitse ne täydennettäviksi.
-- Älä kysy samaa asiaa kahdesti, äläkä pysäytä työtä vastausta odottamaan.
+- Älä kysy samaa asiaa kahdesti. Jatka riippumatonta työtä ja jätä puuttuvasta vastauksesta riippuva ratkaisu avoimeksi.

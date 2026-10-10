@@ -1,0 +1,33 @@
+Digiturvan tietopankki
+Digiturvan tietopankki
+Tekoälyn käyttöönoton työkalut
+Tämä osio sisältää tekoälyn käyttöönoton arviointiin ja itsearviointiin liittyviä työkaluja ja tukimateriaaleja.
+Organisaatiot voivat hyödyntää näitä työkaluja ja tukimateriaaleja oman digitaalisen turvallisuutensa ja erityisesti tekoälyyn liittyvien vaatimusten toteuttamisessa, arvioinnissa ja kehittämisessä.
+Työkalut on tuotettu VAHTI - tietosuojan kehittämisen työryhmässä. Työkalut tukevat organisaatioita tekoälylainsäädännön vaatimusten soveltamisessa.
+VAHTI Hyvät käytännöt tukimateriaali tekoälyn käyttöönottoon (PDF, 117,81 kt) Avautuu uuteen ikkunaan.
+VAHTI Hyvät käytännöt - Tekoälyjärjestelmän käyttötapauksen kuvaus (DOCX, 228,14 kt) Avautuu uuteen ikkunaan.
+VAHTI Hyvät käytännöt - Tekoälyn käyttöönottajan velvollisuudet (DOCX, 251,16 kt) Avautuu uuteen ikkunaan.
+Tekoälyjärjestelmän käyttötapauksen riskitason määritys (XLSX, 76,48 kt) Avautuu uuteen ikkunaan.
+Organisaation AI ratkaisuiden kartoitus (XLSX, 18,59 kt) Avautuu uuteen ikkunaan.
+Tekoälyn perusoikeusvaikutustenarviointi FRIA (XLSX, 88,40 kt) Avautuu uuteen ikkunaan.
+Tekoälyratkaisua koskeva tietosuojan vaikutustenarviointi (XLSX, 26,53 kt) Avautuu uuteen ikkunaan.
+Tekoälyhankinnan vaatimukset ja tsekkilista (XLSX, 43,99 kt) Avautuu uuteen ikkunaan.
+Yhteistoimintakäsittely tekoälyä käyttöönotettaessa
+Tukimateriaali organisaatioille tekoälyjärjestelmien käyttöönottoon liittyvien yhteistoimintavelvoitteiden tunnistamiseen ja toteuttamiseen. Ohjeessa käsitellään muun muassa henkilöstövaikutuksia, korkean riskin tekoälyjärjestelmiä, työn muuttumista sekä YT-käsittelyssä tarvittavia tietoja ja valmistelua
+Tukimateriaali tekoälyjärjestelmän yhteistoimintakäsittelyyn VAHTI Hyvät käytännöt (PDF, 409,29 kt) Avautuu uuteen ikkunaan.
+Päivitetty: 29.9.2026
+Oletko tyytyväinen tämän sivun sisältöön?
+Kyllä
+Osittain, mutta...
+En
+
+LÄHTEEN VIRALLISET LINKIT
+https://cdn.verkkopalvelu.suomi.fi/files/FRIA%20perusoikeusvaikutustenarvointi-44927d5325d64ff28ab65eb1489cc8a9.xlsx
+https://cdn.verkkopalvelu.suomi.fi/files/Hankinnan%20teko%C3%A4lyvaatimukset%20ja%20tsekkilista-db8da875d64961bd77be0ca10f65d42e.xlsx
+https://cdn.verkkopalvelu.suomi.fi/files/Organisaation%20AI%20ratkaisuiden%20kartoitus-93cdfbc92c7768afede133e021cad068.xlsx
+https://cdn.verkkopalvelu.suomi.fi/files/Teko%C3%A4ly%20lis%C3%A4kysymykset%20DPIAan-a8f00cb4a6cb1e7b3a4328e78005377f.xlsx
+https://cdn.verkkopalvelu.suomi.fi/files/Teko%C3%A4lyj%C3%A4rjestelm%C3%A4n%20k%C3%A4ytt%C3%B6tapauksen%20riskitason%20m%C3%A4%C3%A4ritys-778e93277777374fd919be3727eb811f%20v2-cd0682558575ab53ff873a5b20755129.xlsx
+https://cdn.verkkopalvelu.suomi.fi/files/Tukimateriaali%20Teko%C3%A4lyj%C3%A4rjestelm%C3%A4n%20yhteistoimintak%C3%A4sittelyyn%202026-628aff0c3d13ac2b444ce7d211f7ae5c.pdf
+https://cdn.verkkopalvelu.suomi.fi/files/VAHTI%20hyv%C3%A4t%20k%C3%A4yt%C3%A4nn%C3%B6t%20Teko%C3%A4lyn%20k%C3%A4ytt%C3%B6%C3%B6nottajan%20velvollisuudet-7735bff398c010b2afebdb232ffad8b5.docx
+https://cdn.verkkopalvelu.suomi.fi/files/VAHTI%20hyv%C3%A4t%20k%C3%A4yt%C3%A4nn%C3%B6t%20Tukimateriaali%20teko%C3%A4lyn%20k%C3%A4ytt%C3%B6%C3%B6nottoon-202970484f1766cf4f76ed97ca474ace.pdf
+https://cdn.verkkopalvelu.suomi.fi/files/VAHTI%20hyv%C3%A4t%20k%C3%A4yt%C3%A4nn%C3%B6t%20teko%C3%A4lyj%C3%A4rjestelm%C3%A4n%20k%C3%A4ytt%C3%B6tapauksen%20kuvaus-8aec7609a8550b0aa52f6b4b627e855c.docx
