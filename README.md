@@ -10,8 +10,8 @@ EU:n tekoälyasetuksen (AI Act, asetus (EU) 2024/1689) käyttöönotto yrityksis
 |---|---|
 | `mcp/` | MCP-palvelin puhtaalla Node.js:llä (18+). Ei npm-riippuvuuksia. Sama syöte, arviointipäivä ja aineisto tuottavat saman tuloksen. Palvelimessa ei ole kielimallia. |
 | `mcp/data/` | Virallinen suomenkielinen säädösteksti EUR-Lexistä (alkuperäinen ja muutosasetuksen muutokset erikseen), liite III, kiellot, velvoitteet roolin mukaan, aikataulu, seuraamukset ja valvontaviranomaiset Suomessa. |
-| `skills/` | Seitsemän skilliä käyttöönoton vaiheisiin. |
-| `pohjat/` | Täytettävät pohjat: inventaario, luokitusmuistio, perusoikeusarviointi, toimittajakysely, käyttöperiaatteet, avoimuusilmoitukset ja due diligence -tietopyyntö. |
+| `skills/` | Kahdeksan skilliä käyttöönoton vaiheisiin. |
+| `pohjat/` | Täytettävät pohjat: inventaario, luokitusmuistio, perusoikeusarviointi, toimittajakysely, käyttöperiaatteet, politiikan muutosraportti, avoimuusilmoitukset ja due diligence -tietopyyntö. |
 
 ### Skillit
 
@@ -23,6 +23,7 @@ EU:n tekoälyasetuksen (AI Act, asetus (EU) 2024/1689) käyttöönotto yrityksis
 | `avoimuus` | 50 artikla: chatbotit, synteettisen sisällön merkintä, syväväärennökset, ilmoitustekstit. |
 | `perusoikeusarviointi` | 27 artiklan FRIA yhdessä DPIA:n kanssa. |
 | `hallintamalli` | Vastuut, tekoälylukutaito (4 art.), käyttöperiaatteet, hankintaportti, ISO/IEC 42001. |
+| `kayttopolitiikka` | Interaktiivinen: päivittää vanhan tekoälypolitiikan (muutosraportti, uusi versio, saate) tai laatii uuden politiikkapaketin. |
 | `yrityskauppa-dd` | Tekoälyasetus yrityskaupassa: tietopyyntö, punaiset liput, sopimusehdot (ostaja ja myyjä). |
 
 ### MCP-työkalut

@@ -9,7 +9,7 @@
       "name": "tekoalyasetus",
       "source": "./",
       "description": "Skillit, pohjat ja riippuvuukseton MCP-palvelin EU:n tekoälyasetuksen käyttöönottoon organisaatiossa.",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "category": "compliance"
     }
   ]

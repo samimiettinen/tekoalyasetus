@@ -1,6 +1,6 @@
 ---
 name: hallintamalli
-description: "Rakentaa organisaatiolle tekoälyn hallintamallin EU:n tekoälyasetuksen noudattamiseksi: vastuut, tekoälylukutaito (4 art.), käyttöperiaatteet, hankinta- ja toimittajaprosessi, poikkeamien käsittely, raportointi hallitukselle ja yhteys ISO/IEC 42001 -standardiin. Käytä, kun käyttäjä pyytää AI governancea, tekoälypolitiikkaa tai -ohjetta, tekoälyn käyttöperiaatteita, lukutaitokoulutusta, vastuunjakoa, hallituksen raporttia tekoälyriskeistä tai \"miten järjestämme AI Act -compliancen\". Use for AI governance, AI policy, AI literacy training and board reporting."
+description: "Rakentaa organisaatiolle tekoälyn hallintamallin EU:n tekoälyasetuksen noudattamiseksi: vastuut, tekoälylukutaito (4 art.), käyttöperiaatteet, hankinta- ja toimittajaprosessi, poikkeamien käsittely, raportointi hallitukselle ja yhteys ISO/IEC 42001 -standardiin. Käytä, kun käyttäjä pyytää AI governancea, tekoälypolitiikkaa tai -ohjetta, tekoälyn käyttöperiaatteita, lukutaitokoulutusta, vastuunjakoa, hallituksen raporttia tekoälyriskeistä tai \"miten järjestämme AI Act -compliancen\". Käyttöpolitiikan päivitykseen tai laatimiseen käytä kayttopolitiikka-skilliä. Use for AI governance, AI policy, AI literacy training and board reporting."
 ---
 
 # Tekoälyn hallintamalli
