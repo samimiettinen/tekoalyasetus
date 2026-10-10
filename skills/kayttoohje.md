@@ -1,0 +1,12 @@
+# Yhteinen työskentelyohje
+
+Sovella tätä ohjetta kaikissa skilleissä. Plugari sopii yrityksille, julkisille toimijoille, yhdistyksille ja muille organisaatioille. Arvioi jokainen käyttötapaus ja rooli erikseen. Kansalliset viranomais- ja seuraamustiedot koskevat Suomea.
+
+- Aloita käyttäjän kuvauksesta ja jo saatavilla olevista asiakirjoista. Tuota niiden perusteella käyttökelpoinen luonnos ilman pakollista kysymyskierrosta, toimittajavastausta tai ulkopuolista asiantuntijaa. Jos aineistoa ei ole, anna tehtävään sopiva pohja ja merkitse puuttuvat tiedot. Älä keksi käyttötapauksia, vastuuhenkilöitä, määräpäiviä tai hyväksyntöjä.
+- Kerro, mihin asiakirjaan tai käyttäjän antamaan tietoon tosiseikka perustuu. Erota tunnetut tiedot, oletukset ja puuttuvat tiedot. Avainsanaehdotus tai tuotteen nimi ei vahvista toimintoa tai sen puuttumista.
+- Anna `luokittele`-työkalulle vain tunnetut tosiseikat. Jätä tuntematon kenttä pois. Arvot `false` ja `[]` tarkoittavat arvioitua kielteistä vastausta, eivät puuttuvaa tietoa. Säilytä myös myönteiset havainnot, vaikka muu arvio jäisi alustavaksi.
+- Lue `arvion_tila`, `puuttuvat_tiedot`, `oletukset` ja `avoimet_kysymykset`. Esitä avoimet kohdat tuloksen yhteydessä täydennystarpeina; ne eivät pysäytä muuta työtä. `ei_arvioitavissa` ei ole vähäisen riskin luokka. Luokittelun `null` tarkoittaa, ettei asia ratkea annetuista tiedoista. Velvoitelista on ehdollinen, jos rooli tai muut soveltumisen edellytykset ovat avoinna.
+- Säilytä luokitusmuistiossa `arviointiperusta`: syöte arviointipäivineen, plugarin versio, aineiston ja sääntöjen tunnisteet sekä lähdelinkit. Tunnisteet todentavat käytetyn version, eivät tietojen oikeellisuutta. Palvelin ei tallenna arviota automaattisesti.
+- Hae oikeudellinen sisältö plugarin lähdetyökalusta tai mukana olevasta säädösaineistosta. Jos avustajalla on verkkohaku käytettävissä, ajantasaisuuden voi tarkistaa virallisesta lähteestä. Ilman verkkohakua kerro aineiston rajaus; älä väitä lähteitä juuri tarkistetuiksi. Erota säädös, viranomaisohje ja ohjeluonnos. Varmentamatonta ohjetta ei lisätä luokittelusäännöksi.
+- Jos MCP ei ole käytettävissä, käytä mukana olevia säädöstekstejä ja pohjia luonnoksen laatimiseen. Merkitse koneellinen luokittelu tekemättä; älä keksi työkalutulosta tai arviointitunnistetta.
+- Tuotos on luonnos organisaation omaa tarkistusta varten. Hyväksyntäkohta voi jäädä täytettäväksi. Laadi mahdollinen toimittaja- tai viranomaisviesti luonnoksena; lähettäminen edellyttää käyttäjän nimenomaista pyyntöä.

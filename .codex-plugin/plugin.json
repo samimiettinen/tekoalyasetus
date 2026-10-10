@@ -1,0 +1,34 @@
+{
+  "name": "tekoalyasetus",
+  "version": "1.1.2",
+  "description": "EU:n tekoälyasetus (AI Act) Suomessa toimiville organisaatioille: inventaario, riskiluokittelu, roolit ja velvoitteet, avoimuus, perusoikeusarviointi, hallintamalli ja yrityskaupan due diligence. Riippuvuukseton MCP-palvelin ja muutosasetuksen (EU) 2026/1744 päivämäärät.",
+  "author": {
+    "name": "Sami Miettinen"
+  },
+  "homepage": "https://github.com/samimiettinen/tekoalyasetus",
+  "repository": "https://github.com/samimiettinen/tekoalyasetus",
+  "license": "MIT",
+  "keywords": [
+    "ai-act",
+    "tekoalyasetus",
+    "eu-ai-act",
+    "compliance",
+    "finland",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "tekoalyasetus",
+    "shortDescription": "EU:n tekoälyasetus (AI Act)",
+    "longDescription": "EU:n tekoälyasetus (AI Act) Suomessa toimiville organisaatioille: inventaario, riskiluokittelu, roolit ja velvoitteet, avoimuus, perusoikeusarviointi, hallintamalli ja yrityskaupan due diligence. Riippuvuukseton MCP-palvelin ja muutosasetuksen (EU) 2026/1744 päivämäärät.",
+    "developerName": "Sami Miettinen",
+    "category": "Productivity",
+    "capabilities": [
+      "Riskiluokittelu",
+      "Velvoitteet",
+      "Säädöstekstin haku"
+    ],
+    "websiteURL": "https://github.com/samimiettinen/tekoalyasetus"
+  }
+}

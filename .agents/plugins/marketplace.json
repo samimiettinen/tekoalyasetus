@@ -1,0 +1,20 @@
+{
+  "name": "tekoalyasetus",
+  "interface": {
+    "displayName": "tekoalyasetus"
+  },
+  "plugins": [
+    {
+      "name": "tekoalyasetus",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

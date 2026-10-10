@@ -1,0 +1,129 @@
+{
+ "_meta": {
+  "kuvaus": "Tekoälyasetuksen (EU) 2024/1689 soveltamisaikataulu sellaisena kuin se on muutettuna asetuksella (EU) 2026/1744 sekä kansallisen valvontalain 1377/2025 voimaantulo.",
+  "tarkistettu": "2026-10-10"
+ },
+ "virstanpylvaat": [
+  {
+   "id": "voimaantulo",
+   "pvm": "2024-08-01",
+   "otsikko": "Tekoälyasetus tulee voimaan",
+   "kuvaus": "Asetus tuli voimaan 20. päivänä julkaisusta (EUVL 12.7.2024). Velvoitteita alettiin soveltaa vaiheittain.",
+   "artiklat": ["113 art. 1 kohta"],
+   "koskee": ["kaikki"]
+  },
+  {
+   "id": "luvut_i_ii",
+   "pvm": "2025-02-02",
+   "otsikko": "Yleiset säännökset, tekoälylukutaito ja kiellot",
+   "kuvaus": "I luku (mm. 4 art. tekoälylukutaito) ja II luku (5 art. kielletyt käytännöt a–h) alkoivat soveltua.",
+   "artiklat": ["113 art. 3 kohdan a alakohta", "4 art.", "5 art."],
+   "koskee": ["tarjoaja", "kayttoonottaja", "kaikki"]
+  },
+  {
+   "id": "gpai_hallinto",
+   "pvm": "2025-08-02",
+   "otsikko": "Yleiskäyttöiset tekoälymallit, hallinto ja seuraamussäännöt",
+   "kuvaus": "III luvun 4 jakso (ilmoitetut laitokset), V luku (yleiskäyttöiset tekoälymallit), VII luku (hallinto), XII luku (seuraamukset, ei 101 art.) ja 78 art. alkoivat soveltua.",
+   "artiklat": ["113 art. 3 kohdan b alakohta", "53 art.", "55 art."],
+   "koskee": ["gpai_tarjoaja", "viranomaiset"]
+  },
+  {
+   "id": "kansallinen_laki",
+   "pvm": "2026-01-01",
+   "otsikko": "Suomen valvontalaki voimaan",
+   "kuvaus": "Laki eräiden tekoälyjärjestelmien valvonnasta (1377/2025) tuli voimaan: valvontaviranomaiset, keskitetty yhteyspiste (Traficom) ja seuraamusmaksulautakunta.",
+   "artiklat": ["1377/2025 29 §"],
+   "koskee": ["kaikki"]
+  },
+  {
+   "id": "omnibus_voimaan",
+   "pvm": "2026-07-27",
+   "otsikko": "Muutosasetus (EU) 2026/1744 voimaan",
+   "kuvaus": "Digital Omnibus on AI tuli voimaan. Mm. 4 artikla korvattiin (lukutaitovelvoite muotoon 'toteutettava toimenpiteitä, joilla tuetaan'), lisättiin 4 a artikla (erityiset henkilötietoryhmät vinoutumien korjaamiseksi), siirrettiin suuririskisten järjestelmien soveltamispäiviä ja 102–110 artiklaa sovelletaan tästä päivästä.",
+   "artiklat": ["2026/1744 4 art.", "113 art. 3 kohdan d alakohta"],
+   "koskee": ["kaikki"]
+  },
+  {
+   "id": "yleinen_soveltaminen",
+   "pvm": "2026-08-02",
+   "otsikko": "Yleinen soveltamispäivä: avoimuusvelvoitteet ja GPAI-sakot",
+   "kuvaus": "Asetusta sovelletaan yleisesti, mm. 50 artiklan avoimuusvelvoitteet (chatbotit, synteettisen sisällön merkintä, syväväärennökset) ja 101 artiklan yleiskäyttöisten mallien tarjoajien sakot.",
+   "artiklat": ["113 art. 2 kohta", "50 art.", "101 art."],
+   "koskee": ["tarjoaja", "kayttoonottaja", "gpai_tarjoaja"]
+  },
+  {
+   "id": "uudet_kiellot_ja_merkinta",
+   "pvm": "2026-12-02",
+   "otsikko": "Uudet kiellot ja vanhojen generatiivisten järjestelmien merkintävelvoite",
+   "kuvaus": "Uudet kiellot 5 art. 1 kohdan b a ja b b alakohta (ei-suostumuksellinen intiimi sisältö ja lasten seksuaalista hyväksikäyttöä esittävä aineisto) alkavat soveltua. Ennen 2.8.2026 markkinoille saatettujen synteettistä sisältöä tuottavien järjestelmien tarjoajien on noudatettava 50 art. 2 kohtaa viimeistään tänä päivänä.",
+   "artiklat": ["113 art. 3 kohdan a alakohta (muutettu)", "111 art. 4 kohta (lisätty)"],
+   "koskee": ["tarjoaja", "kayttoonottaja"]
+  },
+  {
+   "id": "gpai_vanhat_mallit",
+   "pvm": "2027-08-02",
+   "otsikko": "Ennen 2.8.2025 markkinoille saatetut yleiskäyttöiset mallit ja kansallinen testiympäristö",
+   "kuvaus": "Ennen 2.8.2025 markkinoille saatettujen yleiskäyttöisten tekoälymallien tarjoajien on noudatettava asetusta. Jäsenvaltioiden vähintään yhden kansallisen sääntelyn testiympäristön on oltava toiminnassa.",
+   "artiklat": ["111 art. 3 kohta", "57 art. 1 kohta (muutettu)"],
+   "koskee": ["gpai_tarjoaja", "viranomaiset"]
+  },
+  {
+   "id": "seurannan_malli",
+   "pvm": "2027-09-02",
+   "otsikko": "Markkinoille saattamisen jälkeisen seurannan ohjeet ja malli",
+   "kuvaus": "Komissio hyväksyy markkinoille saattamisen jälkeistä seurantasuunnitelmaa koskevat ohjeet, mukaan lukien mallin, viimeistään tänä päivänä.",
+   "artiklat": ["72 art. 3 kohta (muutettu)"],
+   "koskee": ["tarjoaja", "viranomaiset"]
+  },
+  {
+   "id": "liite_iii",
+   "pvm": "2027-12-02",
+   "otsikko": "Liitteen III suuririskiset järjestelmät",
+   "kuvaus": "III luvun 1–3 jaksoa (paitsi 6 art. 5 kohta) sovelletaan 6 artiklan 2 kohdan ja liitteen III mukaisiin suuririskisiin järjestelmiin (mm. rekrytointi, luottopisteytys, koulutus, välttämättömät palvelut). Alkuperäinen päivä oli 2.8.2026.",
+   "artiklat": ["113 art. 3 kohdan c alakohdan i alakohta (muutettu)"],
+   "koskee": ["tarjoaja", "kayttoonottaja", "maahantuoja", "jakelija", "valtuutettu_edustaja"]
+  },
+  {
+   "id": "liite_i",
+   "pvm": "2028-08-02",
+   "otsikko": "Liitteen I tuotteisiin liittyvät suuririskiset järjestelmät",
+   "kuvaus": "III luvun 1–3 jaksoa sovelletaan 6 artiklan 1 kohdan ja liitteen I mukaisiin suuririskisiin järjestelmiin (tuoteturvallisuuslainsäädännön alaiset turvakomponentit ja tuotteet). Alkuperäinen päivä oli 2.8.2027. Koneasetus (EU) 2023/1230 siirrettiin liitteen I A-jaksosta B-jaksoon.",
+   "artiklat": ["113 art. 3 kohdan c alakohdan ii alakohta (muutettu)", "liite I (muutettu)"],
+   "koskee": ["tarjoaja", "kayttoonottaja", "maahantuoja", "jakelija", "valtuutettu_edustaja"]
+  },
+  {
+   "id": "viranomaisjarjestelmat",
+   "pvm": "2030-08-02",
+   "otsikko": "Viranomaiskäytön vanhat suuririskiset järjestelmät",
+   "kuvaus": "Viranomaisten käyttöön tarkoitettujen, jo ennen III luvun soveltamispäivää markkinoille saatettujen suuririskisten järjestelmien tarjoajien ja käyttöönottajien on noudatettava asetusta.",
+   "artiklat": ["111 art. 2 kohta (muutettu)"],
+   "koskee": ["tarjoaja", "kayttoonottaja"]
+  },
+  {
+   "id": "laajat_tietojarjestelmat",
+   "pvm": "2030-12-31",
+   "otsikko": "Liitteen X laajat tietojärjestelmät",
+   "kuvaus": "Liitteessä X lueteltujen laajojen EU-tietojärjestelmien osana olevat, ennen 2.8.2027 markkinoille saatetut järjestelmät on saatettava vaatimusten mukaisiksi.",
+   "artiklat": ["111 art. 1 kohta"],
+   "koskee": ["viranomaiset"]
+  }
+ ],
+ "siirtymasaannot": [
+  {
+   "id": "vanhat_suuririskiset",
+   "kuvaus": "Ennen III luvun soveltamispäivää (liite III: 2.12.2027, liite I: 2.8.2028) markkinoille saatettuihin tai käyttöön otettuihin suuririskisiin järjestelmiin sovelletaan asetusta vain, jos niiden rakenteessa tapahtuu tämän jälkeen merkittäviä muutoksia. Arvio tehdään tyypeittäin ja malleittain. Viranomaiskäytön järjestelmille takaraja 2.8.2030. Kielletyt käytännöt koskevat kaikkia järjestelmiä riippumatta siitä, milloin ne on saatettu markkinoille.",
+   "artiklat": ["111 art. 2 kohta (muutettu asetuksella (EU) 2026/1744)"]
+  },
+  {
+   "id": "vanha_generatiivinen",
+   "kuvaus": "Ennen 2.8.2026 markkinoille saatetut synteettistä ääni-, kuva-, video- tai tekstisisältöä tuottavat järjestelmät (myös yleiskäyttöiset): 50 art. 2 kohdan koneluettava merkintä viimeistään 2.12.2026.",
+   "artiklat": ["111 art. 4 kohta (lisätty asetuksella (EU) 2026/1744)"]
+  },
+  {
+   "id": "vanha_gpai",
+   "kuvaus": "Ennen 2.8.2025 markkinoille saatetut yleiskäyttöiset tekoälymallit: velvoitteet viimeistään 2.8.2027.",
+   "artiklat": ["111 art. 3 kohta"]
+  }
+ ]
+}

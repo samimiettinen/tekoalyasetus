@@ -1,0 +1,21 @@
+{
+ "_meta": {
+  "kuvaus": "Viralliset lähteet. Kokoelma käyttää vain säädöstekstejä ja viranomaisten julkaisuja.",
+  "tarkistettu": "2026-10-10"
+ },
+ "saadokset": [
+  {"nimi": "Asetus (EU) 2024/1689 (tekoälyasetus), suomenkielinen toisinto", "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32024R1689", "huom": "Alkuperäinen teksti, EUVL L 12.7.2024."},
+  {"nimi": "Asetus (EU) 2026/1744 (Digital Omnibus on AI), muutosasetus", "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=OJ:L_202601744", "huom": "EUVL L 24.7.2026, voimaan 27.7.2026."},
+  {"nimi": "Laki eräiden tekoälyjärjestelmien valvonnasta (1377/2025)", "url": "https://www.finlex.fi/fi/lainsaadanto/2025/1377", "huom": "Voimaan 1.1.2026."}
+ ],
+ "viranomaiset": [
+  {"nimi": "Traficom: tekoälyn sääntely ja tietoa EU:n tekoälyasetuksesta", "url": "https://www.traficom.fi/fi/tekoalyn-saantely/tietoa-eun-tekoalyasetuksesta", "huom": "Kansallinen keskitetty yhteyspiste; avoimuusvelvoitteiden valvonta."},
+  {"nimi": "Tietosuojavaltuutetun toimisto", "url": "https://tietosuoja.fi", "huom": "Kiellettyjen käytäntöjen ja useimpien liitteen III alojen valvonta."},
+  {"nimi": "Euroopan komissio: AI Act -sääntelykehys", "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai", "huom": "Komission ohjeet, käytännesäännöt ja täytäntöönpanosäädökset."},
+  {"nimi": "DVV / VAHTI: tekoälyn hallintamalli", "url": "https://kehittajille.suomi.fi/palvelut/digiturva/tietoturva/tekoaly/tekoalyn-hallintamalli", "huom": "Julkishallinnolle laadittu; soveltuu pohjaksi myös yrityksille."},
+  {"nimi": "DVV / VAHTI: tekoälyn käyttöönoton työkalut", "url": "https://kehittajille.suomi.fi/palvelut/digiturva/tietoturva/tekoaly/tekoalyn-kayttoonoton-tyokalut", "huom": "Kartoitus, riskitaso, käyttöönottajan velvollisuudet, FRIA ja DPIA-lisäkysymykset."}
+ ],
+ "standardit": [
+  {"nimi": "ISO/IEC 42001:2023 Artificial intelligence — Management system", "url": "https://www.iso.org/standard/42001", "huom": "Tekoälyn hallintajärjestelmästandardi. Ei sellaisenaan anna tekoälyasetuksen 40 artiklan mukaista vaatimustenmukaisuusolettamaa; tarkista harmonisoitujen standardien tilanne komission sivuilta."}
+ ]
+}

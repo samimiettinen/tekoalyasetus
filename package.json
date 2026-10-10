@@ -1,0 +1,39 @@
+{
+  "name": "tekoalyasetus",
+  "version": "1.1.2",
+  "description": "EU:n tekoälyasetus (AI Act) Suomessa toimiville organisaatioille: skillit Claudelle ja Codexille, riippuvuukseton MCP-palvelin ja käyttöönottopohjat.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Sami Miettinen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samimiettinen/tekoalyasetus.git"
+  },
+  "homepage": "https://github.com/samimiettinen/tekoalyasetus#readme",
+  "bin": {
+    "tekoalyasetus-mcp": "mcp/server.mjs"
+  },
+  "files": [
+    "mcp/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node mcp/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validoi": "node scripts/validoi.mjs",
+    "tarkista-lahteet": "node scripts/tarkista-lahteet.mjs",
+    "generoi-codex": "node scripts/generoi-codex.mjs"
+  },
+  "keywords": [
+    "ai-act",
+    "tekoalyasetus",
+    "eu-ai-act",
+    "mcp",
+    "claude",
+    "compliance",
+    "finland",
+    "codex"
+  ]
+}

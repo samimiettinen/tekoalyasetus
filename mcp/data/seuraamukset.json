@@ -1,0 +1,16 @@
+{
+ "_meta": {
+  "kuvaus": "Hallinnollisten seuraamusmaksujen enimmäismäärät: tekoälyasetuksen 99 ja 101 artikla (99 art. muutettuna asetuksella (EU) 2026/1744) sekä laki 1377/2025 23 §. Kyse on enimmäismääristä; määrässä otetaan huomioon 99 art. 7 kohdan seikat (vakavuus, kesto, yhteistyö, aiemmat rikkomukset ym.)."
+ },
+ "luokat": {
+  "kielletty": {"kuvaus": "Kiellettyjen käytäntöjen rikkominen (5 art.)", "kiintea_eur": 35000000, "prosentti": 7, "eu_peruste": "99 art. 3 kohta", "kansallinen": "1377/2025 21 § ja 23 § 2 mom. 1 k.", "pk": "pienempi", "smc": "suurempi"},
+  "velvoite": {"kuvaus": "Toimijoiden muiden velvoitteiden rikkominen: tarjoajat (16 art.), valtuutetut edustajat (22 art.), maahantuojat (23 art.), jakelijat (24 art.), käyttöönottajat (26 art.), 25 art. 2 ja 4 kohta, ilmoitetut laitokset ja avoimuusvelvoitteet (50 art.)", "kiintea_eur": 15000000, "prosentti": 3, "eu_peruste": "99 art. 4 kohta (d a alakohta lisätty asetuksella (EU) 2026/1744)", "kansallinen": "1377/2025 14–19 § ja 22 §, 23 § 2 mom. 2 k.", "pk": "pienempi", "smc": "pienempi"},
+  "virheellinen_tieto": {"kuvaus": "Virheellisten, puutteellisten tai harhaanjohtavien tietojen antaminen ilmoitetuille laitoksille tai viranomaisille", "kiintea_eur": 7500000, "prosentti": 1, "eu_peruste": "99 art. 5 kohta", "kansallinen": "1377/2025 20 § ja 23 § 2 mom. 3 k.", "pk": "pienempi", "smc": "pienempi"},
+  "gpai": {"kuvaus": "Yleiskäyttöisen tekoälymallin tarjoajan rikkomukset (komissio määrää)", "kiintea_eur": 15000000, "prosentti": 3, "eu_peruste": "101 art. 1 kohta; sovelletaan 2.8.2026 alkaen", "kansallinen": null, "pk": "suurempi", "smc": "suurempi"}
+ },
+ "kokoluokat": {
+  "suuri": "Enimmäismäärä on kiinteä summa tai prosenttiosuus edeltävän tilikauden maailmanlaajuisesta liikevaihdosta sen mukaan, kumpi on suurempi.",
+  "pk": "Pk-yritys (komission suositus 2003/361/EY): kiinteä summa tai prosenttiosuus sen mukaan, kumpi on pienempi (99 art. 6 kohta; 1377/2025 23 § 3 mom.).",
+  "smc": "Pieni midcap-yritys (komission suositus (EU) 2025/1099): 99 art. 4 ja 5 kohdan sakoissa kumpi on pienempi (99 art. 6 a kohta, lisätty asetuksella (EU) 2026/1744). Kiellettyjen käytäntöjen sakkoon (3 kohta) helpotus ei ulotu. Lain 1377/2025 alkuperäinen 23 § ei mainitse pieniä midcap-yrityksiä; EU-asetuksen säännös sitoo kuitenkin suoraan."
+ }
+}

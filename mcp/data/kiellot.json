@@ -1,0 +1,140 @@
+{
+ "_meta": {
+  "kuvaus": "Tekoälyasetuksen 5 artiklan kielletyt käytännöt. Valvova viranomainen Suomessa: tietosuojavaltuutettu (1377/2025 4 §). Seuraamusmaksu: 1377/2025 21 § ja 23 § 2 mom. 1 k.",
+  "valvova_viranomainen": {
+   "id": "tietosuojavaltuutettu",
+   "nimi": "Tietosuojavaltuutetun toimisto",
+   "peruste": "1377/2025 4 §"
+  }
+ },
+ "kiellot": [
+  {
+   "id": "a",
+   "lyhyt": "Subliminaaliset, manipuloivat tai harhaanjohtavat tekniikat",
+   "virallinen_teksti": "sellaisen tekoälyjärjestelmän markkinoille saattaminen, käyttöönotto tai käyttö, jossa käytetään subliminaalisia tekniikoita, joita henkilö ei havaitse tietoisesti, tai tarkoituksellisesti manipuloivia tai harhaanjohtavia tekniikoita, joiden tavoitteena on vääristää tai jotka olennaisesti vääristävät henkilön tai henkilöryhmän käyttäytymistä heikentäen tuntuvasti tämän kykyä tehdä tietoinen päätös ja saaden tämän tekemään päätöksen, jota tämä ei olisi muussa tapauksessa tehnyt, tavalla, joka aiheuttaa tai kohtuullisella todennäköisyydellä aiheuttaa kyseiselle henkilölle, toiselle henkilölle tai henkilöryhmälle merkittävää haittaa.",
+   "avainsanat": [
+    "subliminaalinen",
+    "manipulointi",
+    "manipuloiva",
+    "harhaanjohtava tekniikka",
+    "dark pattern",
+    "pimeä malli"
+   ],
+   "artikla": "5 art. 1 kohdan ensimmäisen alakohdan a alakohta",
+   "sovelletaan": "2025-02-02"
+  },
+  {
+   "id": "b",
+   "lyhyt": "Haavoittuvuuksien hyväksikäyttö (ikä, vamma, sosiaalinen tai taloudellinen tilanne)",
+   "virallinen_teksti": "sellaisen tekoälyjärjestelmän markkinoille saattaminen, käyttöönotto tai käyttö, jossa hyödynnetään luonnollisen henkilön tai tietyn henkilöryhmän haavoittuvuuksia, jotka liittyvät heidän ikäänsä, vammaansa tai erityiseen sosiaaliseen tai taloudelliseen tilanteeseensa, siten, että tavoitteena tai vaikutuksena on olennaisesti vääristää kyseisen henkilön tai kyseiseen ryhmään kuuluvan henkilön käyttäytymistä tavalla, joka aiheuttaa tai kohtuullisella todennäköisyydellä aiheuttaa kyseiselle henkilölle tai toiselle henkilölle merkittävää haittaa;",
+   "avainsanat": [
+    "haavoittuvuus",
+    "haavoittuvassa asemassa",
+    "lapset kohderyhmä",
+    "vulnerab"
+   ],
+   "artikla": "5 art. 1 kohdan ensimmäisen alakohdan b alakohta",
+   "sovelletaan": "2025-02-02"
+  },
+  {
+   "id": "ba",
+   "lyhyt": "Tunnistettavan henkilön intiimikuvien tai seksuaalisen sisällön tuottaminen ilman suostumusta",
+   "virallinen_teksti": "sellaisen tekoälyjärjestelmän markkinoille saattaminen, käyttöönotto tai käyttö, joka tuottaa tai manipuloi todenmukaisia kuvia, videoita, ääntä tai samankaltaista materiaalia tunnistettavissa olevan luonnollisen henkilön intiimialueista tai ilmeisen seksuaaliseen toimintaan osallistuvasta tunnistettavissa olevasta luonnollisesta henkilöstä ilman kyseisen henkilön vapaaehtoista, yksilöityä, tietoista, yksiselitteistä ja nimenomaista suostumusta kyseiseen tuottamiseen tai manipulointiin;",
+   "avainsanat": [
+    "nudify",
+    "riisuntasovellus",
+    "intiimikuva",
+    "deepfake porn",
+    "seksuaalinen deepfake"
+   ],
+   "artikla": "5 art. 1 kohdan ensimmäisen alakohdan b a alakohta (lisätty asetuksella (EU) 2026/1744)",
+   "sovelletaan": "2026-12-02",
+   "huomio": "Tarjoajan kielto koskee järjestelmiä, joiden käyttötarkoitus tämä on tai joissa tulos on kohtuudella ennakoitavissa ilman riittäviä teknisiä suojatoimia (5 art. 1 a kohta)."
+  },
+  {
+   "id": "bb",
+   "lyhyt": "Lasten seksuaalista hyväksikäyttöä esittävän aineiston tuottaminen tai manipulointi",
+   "virallinen_teksti": "sellaisen tekoälyjärjestelmän markkinoille saattaminen, käyttöönotto tai käyttö, joka tuottaa tai manipuloi direktiivin 2011/93/EU 2 artiklan c alakohdassa tarkoitettua aineistoa tai e alakohdassa tarkoitettua esitystä, paitsi jos kansallisen lainsäädännön nojalla sovelletaan ”oikeudetonta tekoa” koskevaa puolustusta;",
+   "avainsanat": [
+    "csam",
+    "lasten seksuaalinen hyväksikäyttö"
+   ],
+   "artikla": "5 art. 1 kohdan ensimmäisen alakohdan b b alakohta (lisätty asetuksella (EU) 2026/1744)",
+   "sovelletaan": "2026-12-02",
+   "huomio": "Tarjoajan kielto rajautuu 5 art. 1 a kohdan mukaisesti kuten b a -alakohdassa."
+  },
+  {
+   "id": "c",
+   "lyhyt": "Sosiaalinen pisteytys",
+   "virallinen_teksti": "tekoälyjärjestelmien markkinoille saattaminen, käyttöönotto tai käyttö luonnollisten henkilöiden tai henkilöryhmien arvioimiseksi tai luokittelemiseksi tiettynä ajanjaksona heidän sosiaalisen käyttäytymisensä tai tunnettujen, pääteltyjen tai ennakoitujen henkilökohtaisten ominaisuuksiensa tai luonteenpiirteidensä perusteella siten, että sosiaalinen pisteytys johtaa jompaankumpaan tai molempiin seuraavista: i) tiettyjen luonnollisten henkilöiden tai henkilöryhmien haitallinen tai epäedullinen kohtelu sosiaalisissa yhteyksissä, jotka eivät liity siihen asiayhteyteen, jossa tiedot alun perin tuotettiin tai kerättiin; ii) tiettyjen luonnollisten henkilöiden tai henkilöryhmien haitallinen tai epäedullinen kohtelu, joka on perusteetonta tai suhteetonta heidän sosiaaliseen käyttäytymiseensä tai sen vakavuuteen nähden;",
+   "avainsanat": [
+    "sosiaalinen pisteytys",
+    "social scoring",
+    "käyttäytymispisteytys"
+   ],
+   "artikla": "5 art. 1 kohdan ensimmäisen alakohdan c alakohta",
+   "sovelletaan": "2025-02-02"
+  },
+  {
+   "id": "d",
+   "lyhyt": "Rikosriskin ennustaminen yksinomaan profiloinnin perusteella",
+   "virallinen_teksti": "tekoälyjärjestelmän markkinoille saattaminen, käyttöönotto tätä erityistarkoitusta varten tai käyttö luonnollisia henkilöitä koskevien riskinarviointien tekemiseen, jotta voidaan arvioida tai ennustaa sen riskiä, että luonnollinen henkilö syyllistyy rikokseen, kun tämä perustuu yksinomaan luonnollisen henkilön profilointiin tai hänen persoonallisuuspiirteidensä ja persoonallisuusominaisuuksiensa arviointiin; tätä kieltoa ei sovelleta tekoälyjärjestelmiin, joita käytetään tukemaan ihmisen tekemää arviointia jonkun henkilön osallistumisesta rikolliseen toimintaan, kun arvio jo perustuu objektiivisiin ja todennettavissa oleviin tosiseikkoihin, jotka liittyvät suoraan rikolliseen toimintaan;",
+   "avainsanat": [
+    "rikosriski",
+    "rikoksen ennustaminen",
+    "predictive policing"
+   ],
+   "artikla": "5 art. 1 kohdan ensimmäisen alakohdan d alakohta",
+   "sovelletaan": "2025-02-02"
+  },
+  {
+   "id": "e",
+   "lyhyt": "Kasvokuvien kohdentamaton haravointi tietokantoihin",
+   "virallinen_teksti": "sellaisten tekoälyjärjestelmien saattaminen markkinoille, käyttöönotto tähän tiettyyn tarkoitukseen tai käyttö, joilla luodaan tai laajennetaan kasvojentunnistustietokantoja haravoimalla kasvokuvia kohdentamattomasti internetistä tai valvontakamerakuvista;",
+   "avainsanat": [
+    "kasvokuvien haravointi",
+    "scraping kasvot",
+    "kasvojentunnistustietokanta",
+    "face scraping"
+   ],
+   "artikla": "5 art. 1 kohdan ensimmäisen alakohdan e alakohta",
+   "sovelletaan": "2025-02-02"
+  },
+  {
+   "id": "f",
+   "lyhyt": "Tunteiden päätteleminen työpaikalla ja oppilaitoksissa",
+   "virallinen_teksti": "tekoälyjärjestelmien markkinoille saattaminen, käyttöönotto tätä tarkoitusta varten tai käyttö luonnollisen henkilön tunteiden päättelemiseksi työpaikalla ja oppilaitoksissa, paitsi jos tekoälyjärjestelmän käyttöä on tarkoitus hyödyntää tai saattaa markkinoille lääketieteellisiin tai turvallisuuteen liittyviin tarkoituksiin;",
+   "avainsanat": [
+    "tunteiden tunnistus työpaikalla",
+    "tunnetila työntekijä",
+    "emotion recognition workplace",
+    "tunteentunnistus oppilaitos"
+   ],
+   "artikla": "5 art. 1 kohdan ensimmäisen alakohdan f alakohta",
+   "sovelletaan": "2025-02-02"
+  },
+  {
+   "id": "g",
+   "lyhyt": "Biometrinen luokittelu rodun, poliittisten mielipiteiden, uskonnon, seksuaalisen suuntautumisen ym. perusteella",
+   "virallinen_teksti": "sellaisten biometristen luokittelujärjestelmien markkinoille saattaminen, käyttöönotto tätä tiettyä tarkoitusta varten tai sellaisten biometristen luokittelujärjestelmien käyttö, joissa luonnolliset henkilöt luokitellaan heidän biometristen tietojensa perusteella rodun, poliittisten mielipiteiden, ammattiliiton jäsenyyden, uskonnollisen tai filosofisen vakaumuksen, seksuaalisen käyttäytymisen tai seksuaalisen suuntautumisen perusteella; tämä kielto ei koske laillisesti hankittujen biometristen tietoaineistojen, kuten kuvien, merkitsemistä tai suodattamista biometristen tietojen perusteella lainvalvonta-alalla;",
+   "avainsanat": [
+    "biometrinen luokittelu rotu",
+    "biometrinen luokittelu uskonto",
+    "seksuaalinen suuntautuminen kasvoista"
+   ],
+   "artikla": "5 art. 1 kohdan ensimmäisen alakohdan g alakohta",
+   "sovelletaan": "2025-02-02"
+  },
+  {
+   "id": "h",
+   "lyhyt": "Reaaliaikainen biometrinen etätunnistus julkisissa tiloissa lainvalvontatarkoituksessa",
+   "virallinen_teksti": "reaaliaikaisten biometristen etätunnistusjärjestelmien käyttö julkisissa tiloissa lainvalvontatarkoituksessa, paitsi jos ja siltä osin kuin se on ehdottoman välttämätöntä jonkin seuraavan tavoitteen saavuttamiseksi: i) kaappauksen, ihmiskaupan ja seksuaalisen hyväksikäytön uhrien kohdennettu etsintä sekä kadonneiden henkilöiden etsiminen; ii) luonnollisten henkilöiden henkeen tai fyysiseen turvallisuuteen kohdistuvan erityisen, merkittävän ja välittömän uhan taikka aidon ja välittömän tai aidon ja ennakoitavissa olevan terrori-iskun uhan ehkäiseminen; iii) rikoksesta epäillyn henkilön paikantaminen tai tunnistaminen liitteessä II tarkoitettujen rikosten tutkintaa tai syytteeseenpanoa tai rikosoikeudellisen seuraamuksen täytäntöönpanoa varten ja joista voi asianomaisessa jäsenvaltiossa seurata vapaudenmenetyksen käsittävä rangaistus tai turvaamistoimenpide, jonka enimmäisaika on vähintään neljä vuotta. Ensimmäisen alakohdan h alakohta ei rajoita asetuksen (EU) 2016/679 9 artiklan soveltamista, kun kyse on biometristen tietojen käsittelystä muihin tarkoituksiin kuin lainvalvontaan.",
+   "avainsanat": [
+    "reaaliaikainen kasvojentunnistus julkinen tila",
+    "live facial recognition"
+   ],
+   "artikla": "5 art. 1 kohdan ensimmäisen alakohdan h alakohta",
+   "sovelletaan": "2025-02-02"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "tekoalyasetus",
+  "owner": { "name": "Sami Miettinen" },
+  "metadata": {
+    "description": "EU:n tekoälyasetus Suomessa toimiville organisaatioille."
+  },
+  "plugins": [
+    {
+      "name": "tekoalyasetus",
+      "source": "./",
+      "description": "Skillit, pohjat ja riippuvuukseton MCP-palvelin EU:n tekoälyasetuksen käyttöönottoon organisaatiossa.",
+      "version": "1.1.2",
+      "category": "compliance"
+    }
+  ]
+}

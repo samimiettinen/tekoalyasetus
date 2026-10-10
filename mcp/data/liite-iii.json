@@ -1,0 +1,620 @@
+{
+ "_meta": {
+  "kuvaus": "Tekoälyasetuksen liitteen III suuririskiset käyttötapaukset. Virallinen teksti: asetus (EU) 2024/1689, suomenkielinen toisinto. Valvova viranomainen: Laki eräiden tekoälyjärjestelmien valvonnasta (1377/2025) 3 §.",
+  "soveltaminen": "2027-12-02",
+  "soveltamisen_peruste": "113 art. 3 kohdan c alakohdan i alakohta, sellaisena kuin se on muutettuna asetuksella (EU) 2026/1744"
+ },
+ "kohdat": [
+  {
+   "id": "1a",
+   "ala": "Biometriset tunnisteet, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Biometrinen etätunnistus",
+   "virallinen_teksti": "Biometriset etätunnistusjärjestelmät. Tähän ei lueta tekoälyjärjestelmiä, jotka on tarkoitettu käytettäviksi biometriseen todennukseen ja joiden ainoana tarkoituksena on vahvistaa, että tietty luonnollinen henkilö on se henkilö, joka hän väittää olevansa;",
+   "huomio": "Ei koske biometristä todennusta, jonka ainoa tarkoitus on vahvistaa henkilön olevan se, joka hän väittää olevansa.",
+   "avainsanat": [
+    "biometrinen etätunnistus",
+    "kasvojentunnistus",
+    "kasvojen tunnistus",
+    "face recognition",
+    "facial recognition",
+    "remote biometric",
+    "äänijälki",
+    "voiceprint",
+    "puhujan tunnistus",
+    "puhujantunnistus",
+    "speaker recognition",
+    "speaker identification"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 1"
+  },
+  {
+   "id": "1b",
+   "ala": "Biometriset tunnisteet, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Biometrinen luokittelu arkaluonteisten ominaisuuksien perusteella",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu käytettäviksi biometriseen luokitteluun arkaluonteisten tai suojattujen ominaisuuksien tai ominaispiirteiden mukaisesti kyseisten ominaisuuksien tai ominaispiirteiden päättelyn perusteella;",
+   "huomio": null,
+   "avainsanat": [
+    "biometrinen luokittelu",
+    "biometric categorisation",
+    "biometric categorization"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 1"
+  },
+  {
+   "id": "1c",
+   "ala": "Biometriset tunnisteet, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Tunteiden tunnistaminen",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu tunteiden tunnistamiseen.",
+   "huomio": "Tunteiden päätteleminen työpaikalla tai oppilaitoksessa on kielletty (5 art. 1 kohdan f alakohta), ellei kyse ole lääketieteellisestä tai turvallisuustarkoituksesta.",
+   "avainsanat": [
+    "tunteiden tunnistus",
+    "tunteentunnistus",
+    "tunnetila",
+    "emotion recognition",
+    "sentiment kasvoista"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 1"
+  },
+  {
+   "id": "2",
+   "ala": "Kriittinen infrastruktuuri",
+   "lyhyt": "Kriittisen infrastruktuurin turvakomponentti",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu käytettäviksi turvakomponentteina kriittisen digitaalisen infrastruktuurin, tieliikenteen tai vesi-, kaasu-, lämmitys- tai sähköhuollon hallinnassa ja toiminnassa.",
+   "huomio": "Vain turvakomponenttina käytettävät järjestelmät. Perusoikeusvaikutusten arviointia (27 art.) ei vaadita tältä kohdalta.",
+   "avainsanat": [
+    "kriittinen infrastruktuuri",
+    "sähköverkko",
+    "sähkönjakelu",
+    "kaukolämpö",
+    "lämmitys",
+    "kaasuverkko",
+    "vesihuolto",
+    "vedenjakelu",
+    "tieliikenne",
+    "liikenteenohjaus",
+    "liikennevalo",
+    "digitaalinen infrastruktuuri",
+    "critical infrastructure",
+    "power grid",
+    "water supply"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "energiavirasto",
+     "nimi": "Energiavirasto",
+     "ehto": "lämmitys- tai sähköhuolto; kaasuhuolto jakelu- ja siirtoverkonhaltijoilla",
+     "peruste": "1377/2025 3 § 2 mom. 1 k."
+    },
+    {
+     "id": "tukes",
+     "nimi": "Turvallisuus- ja kemikaalivirasto (Tukes)",
+     "ehto": "muu kaasuala sekä vesihuolto",
+     "peruste": "1377/2025 3 § 2 mom. 2 k."
+    },
+    {
+     "id": "traficom",
+     "nimi": "Liikenne- ja viestintävirasto (Traficom)",
+     "ehto": "tieliikenne ja kriittinen digitaalinen infrastruktuuri",
+     "peruste": "1377/2025 3 § 2 mom. 3 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 2"
+  },
+  {
+   "id": "3a",
+   "ala": "Yleissivistävä ja ammatillinen koulutus",
+   "lyhyt": "Pääsy tai valinta oppilaitokseen",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu käytettäviksi määritettäessä luonnollisten henkilöiden pääsyä tai hyväksymistä yleissivistäviin ja ammatillisiin oppilaitoksiin kaikilla tasoilla tai osoitettaessa luonnollisia henkilöitä niihin;",
+   "huomio": null,
+   "avainsanat": [
+    "opiskelijavalinta",
+    "pääsykoe",
+    "oppilaitokseen hakeminen",
+    "oppilasvalinta",
+    "admission",
+    "student selection"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 3"
+  },
+  {
+   "id": "3b",
+   "ala": "Yleissivistävä ja ammatillinen koulutus",
+   "lyhyt": "Oppimistulosten arviointi",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu käytettäviksi arvioitaessa oppimistuloksia, myös silloin kun kyseisiä tuloksia käytetään luonnollisten henkilöiden oppimisprosessin ohjaamiseksi yleissivistävissä ja ammatillisissa oppilaitoksissa kaikilla tasoilla;",
+   "huomio": null,
+   "avainsanat": [
+    "oppimistulosten arviointi",
+    "arvosana",
+    "arvosanat",
+    "koearviointi",
+    "kokeiden arviointi",
+    "esseiden arviointi",
+    "grading",
+    "assessment of learning"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 3"
+  },
+  {
+   "id": "3c",
+   "ala": "Yleissivistävä ja ammatillinen koulutus",
+   "lyhyt": "Asianmukaisen koulutustason arviointi",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu käytettäviksi sen asianmukaisen koulutustason arviointiin, jonka henkilö saa tai johon hän voi päästä yleissivistävissä ja ammatillisissa oppilaitoksissa tai niiden yhteydessä kaikilla tasoilla;",
+   "huomio": null,
+   "avainsanat": [
+    "koulutustason arviointi",
+    "tasoryhmä",
+    "tasokoe"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 3"
+  },
+  {
+   "id": "3d",
+   "ala": "Yleissivistävä ja ammatillinen koulutus",
+   "lyhyt": "Kokeiden valvonta ja vilpin havaitseminen",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu käytettäviksi opiskelijoiden tarkkailuun ja kielletyn käyttäytymisen havaitsemiseen kokeiden aikana yleissivistävissä ja ammatillisissa oppilaitoksissa tai niiden yhteydessä kaikilla tasoilla.",
+   "huomio": null,
+   "avainsanat": [
+    "kokeen valvonta",
+    "etävalvonta",
+    "proctoring",
+    "vilppi",
+    "lunttaus",
+    "kielletyn käyttäytymisen havaitseminen"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 3"
+  },
+  {
+   "id": "4a",
+   "ala": "Työllistäminen, henkilöstöhallinto ja itsenäisen ammatinharjoittamisen mahdollistaminen",
+   "lyhyt": "Rekrytointi ja valinta",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu käytettäviksi luonnollisten henkilöiden rekrytoinnissa tai valinnassa, erityisesti kohdennettujen työpaikkailmoitusten esittämiseen, työhakemusten analysointiin ja suodattamiseen sekä hakijoiden arviointiin;",
+   "huomio": null,
+   "avainsanat": [
+    "rekrytointi",
+    "rekry",
+    "työhakemus",
+    "työhakemukset",
+    "cv",
+    "ansioluettelo",
+    "hakijoiden arviointi",
+    "hakijan arviointi",
+    "työpaikkailmoitus",
+    "kohdennettu työpaikkailmoitus",
+    "recruitment",
+    "candidate screening",
+    "applicant"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 4"
+  },
+  {
+   "id": "4b",
+   "ala": "Työllistäminen, henkilöstöhallinto ja itsenäisen ammatinharjoittamisen mahdollistaminen",
+   "lyhyt": "Työsuhteen päätökset, tehtävien jakaminen ja työntekijöiden seuranta",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu käytettäviksi työsuhteen ehtoja, uralla etenemistä ja työhön liittyvien sopimussuhteiden päättämistä koskevien päätösten tekemiseen, tehtävien jakamiseen yksilöllisen käytöksen tai personallisuuspiirteiden tai henkilön ominaisuuksien perusteella tai tällaisissa suhteissa olevien henkilöiden suorituksen ja käyttäytymisen seurantaan ja arviointiin.",
+   "huomio": null,
+   "avainsanat": [
+    "suoritusarviointi",
+    "suorituksen arviointi",
+    "työsuorituksen seuranta",
+    "työntekijöiden seuranta",
+    "ylennys",
+    "uralla eteneminen",
+    "irtisanominen",
+    "työsuhteen päättäminen",
+    "tehtävien jakaminen",
+    "vuorosuunnittelu käyttäytymisen perusteella",
+    "performance review",
+    "employee monitoring",
+    "promotion",
+    "termination",
+    "task allocation"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 4"
+  },
+  {
+   "id": "5a",
+   "ala": "Välttämättömien yksityisten palvelujen ja välttämättömien julkisten palvelujen ja etuuksien saatavuus ja käyttö",
+   "lyhyt": "Julkisten etuuksien ja palvelujen myöntäminen",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu käytettäviksi viranomaisten toimesta tai viranomaisten puolesta sen arviointiin, ovatko luonnolliset henkilöt oikeutettuja välttämättömiin julkisen avun etuuksiin ja palveluihin, kuten terveydenhuollon palveluihin, sekä tällaisten etuuksien ja palvelujen myöntämiseen, vähentämiseen, peruuttamiseen tai takaisin perimiseen;",
+   "huomio": null,
+   "avainsanat": [
+    "sosiaaliturva",
+    "etuus",
+    "etuudet",
+    "etuuspäätös",
+    "toimeentulotuki",
+    "julkinen palvelu",
+    "terveydenhuollon palvelu",
+    "public benefits",
+    "eligibility"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "lupa_ja_valvontavirasto",
+     "nimi": "Lupa- ja valvontavirasto",
+     "peruste": "1377/2025 3 § 2 mom. 5 k."
+    },
+    {
+     "id": "finanssivalvonta",
+     "nimi": "Finanssivalvonta",
+     "peruste": "1377/2025 3 § 2 mom. 6 k. b",
+     "ehto": "työttömyys- tai vakuutuskassat, vahinkovakuutusyhtiöt ja eläkelaitokset"
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 5"
+  },
+  {
+   "id": "5b",
+   "ala": "Välttämättömien yksityisten palvelujen ja välttämättömien julkisten palvelujen ja etuuksien saatavuus ja käyttö",
+   "lyhyt": "Luottokelpoisuus ja luottopisteytys",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu käytettäviksi luonnollisten henkilöiden luottokelpoisuuden arviointiin tai heidän luottopisteytyksensä määrittämiseen, lukuun ottamatta tekoälyjärjestelmiä, jotka on tarkoitettu käytettäviksi talouspetosten havaitsemiseen;",
+   "huomio": "Ei koske talouspetosten havaitsemiseen tarkoitettuja järjestelmiä. Perusoikeusvaikutusten arviointi vaaditaan kaikilta käyttöönottajilta (27 art. 1 kohta).",
+   "avainsanat": [
+    "luottokelpoisuus",
+    "luottopisteytys",
+    "luottoluokitus",
+    "credit score",
+    "credit scoring",
+    "creditworthiness",
+    "lainapäätös",
+    "luottopäätös"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    },
+    {
+     "id": "finanssivalvonta",
+     "nimi": "Finanssivalvonta",
+     "peruste": "1377/2025 3 § 2 mom. 6 k. c",
+     "ehto": "käyttöönottaja on Finanssivalvonnan valvottava tai muu finanssimarkkinoilla toimiva"
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 5"
+  },
+  {
+   "id": "5c",
+   "ala": "Välttämättömien yksityisten palvelujen ja välttämättömien julkisten palvelujen ja etuuksien saatavuus ja käyttö",
+   "lyhyt": "Henki- ja sairausvakuutuksen riskinarviointi ja hinnoittelu",
+   "virallinen_teksti": "Tekoälyjärjestelmät, jotka on tarkoitettu käytettäviksi luonnollisia henkilöitä koskevaan riskinarviointiin ja hinnoitteluun sairaus- ja henkivakuutusten tapauksessa;",
+   "huomio": "Perusoikeusvaikutusten arviointi vaaditaan kaikilta käyttöönottajilta (27 art. 1 kohta).",
+   "avainsanat": [
+    "henkivakuutus",
+    "sairausvakuutus",
+    "vakuutushinnoittelu",
+    "vakuutuksen hinnoittelu",
+    "riskinarviointi vakuutus",
+    "life insurance",
+    "health insurance",
+    "insurance pricing"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "finanssivalvonta",
+     "nimi": "Finanssivalvonta",
+     "peruste": "1377/2025 3 § 2 mom. 6 k. a"
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 5"
+  },
+  {
+   "id": "5d",
+   "ala": "Välttämättömien yksityisten palvelujen ja välttämättömien julkisten palvelujen ja etuuksien saatavuus ja käyttö",
+   "lyhyt": "Hätäpuhelujen arviointi ja ensihoidon priorisointi",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joilla on tarkoitus arvioida ja luokitella luonnollisten henkilöiden soittamia hätäpuheluja tai jotka on tarkoitettu käytettäviksi pelastus- ja ensihoitopalvelujen lähettämisessä tai tärkeysjärjestyksen määrittämisessä, mukaan lukien poliisi, palokunta ja lääkintäapu, sekä kiireellistä sairaanhoitoa tarvitsevien potilaiden luokittelussa.",
+   "huomio": null,
+   "avainsanat": [
+    "hätäpuhelu",
+    "112",
+    "hätäkeskus",
+    "ensihoito",
+    "triage",
+    "pelastustoimi",
+    "emergency call"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "lupa_ja_valvontavirasto",
+     "nimi": "Lupa- ja valvontavirasto",
+     "peruste": "1377/2025 3 § 2 mom. 5 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 5"
+  },
+  {
+   "id": "6a",
+   "ala": "Lainvalvonta, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Lainvalvonta: uhriksi joutumisen riski",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joita on tarkoitus käyttää lainvalvontaviranomaisten toimesta tai niiden puolesta tai unionin toimielinten, elinten, toimistojen tai virastojen toimesta lainvalvontaviranomaisten tueksi tai niiden puolesta arvioitaessa luonnollisen henkilön riskiä joutua rikoksen uhriksi;",
+   "huomio": null,
+   "avainsanat": [
+    "poliisi",
+    "lainvalvonta",
+    "uhririski"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 6"
+  },
+  {
+   "id": "6b",
+   "ala": "Lainvalvonta, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Lainvalvonta: valheenpaljastin",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joita on tarkoitus käyttää valheenpaljastimina ja vastaavina välineinä lainvalvontaviranomaisten toimesta tai niiden puolesta tai unionin toimielinten, elinten, toimistojen tai virastojen toimesta lainvalvontaviranomaisten tueksi;",
+   "huomio": null,
+   "avainsanat": [
+    "valheenpaljastin",
+    "lie detector"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 6"
+  },
+  {
+   "id": "6c",
+   "ala": "Lainvalvonta, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Lainvalvonta: todistusaineiston luotettavuus",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joita on tarkoitus käyttää lainvalvontaviranomaisten toimesta tai niiden puolesta tai unionin toimielinten, elinten, toimistojen tai virastojen toimesta lainvalvontaviranomaisten tueksi todistusaineiston luotettavuuden arvioinnissa rikostutkinnassa tai rikosoikeudellisissa menettelyissä;",
+   "huomio": null,
+   "avainsanat": [
+    "todistusaineisto",
+    "rikostutkinta",
+    "esitutkinta"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 6"
+  },
+  {
+   "id": "6d",
+   "ala": "Lainvalvonta, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Lainvalvonta: rikoksen tai uusimisen riskinarvio",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joita on tarkoitus käyttää lainvalvontaviranomaisten toimesta tai niiden puolesta tai unionin toimielinten, elinten, toimistojen tai virastojen toimesta lainvalvontaviranomaisten tueksi luonnollisen henkilön rikokseen tai rikoksen uusimiseen syyllistymisen riskin arvioinnissa muutenkin kuin direktiivin (EU) 2016/680 3 artiklan 4 kohdassa tarkoitetun luonnollisten henkilöiden profiloinnin perusteella, tai luonnollisten henkilöiden tai ryhmien persoonallisuuspiirteiden ja persoonallisuusominaisuuksien tai aiemman rikollisen käyttäytymisen arvioinnissa;",
+   "huomio": null,
+   "avainsanat": [
+    "rikoksen uusiminen",
+    "uusimisriski",
+    "recidivism"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 6"
+  },
+  {
+   "id": "6e",
+   "ala": "Lainvalvonta, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Lainvalvonta: profilointi rikostorjunnassa",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joita on tarkoitus käyttää lainvalvontaviranomaisten toimesta tai niiden puolesta tai unionin toimielinten, elinten, toimistojen tai virastojen toimesta lainvalvontaviranomaisten tueksi direktiivin (EU) 2016/680 3 artiklan 4 kohdassa tarkoitetussa luonnollisten henkilöiden profiloinnissa rikosten paljastamisen, tutkimisen tai rikoksiin liittyvien syytetoimien yhteydessä.",
+   "huomio": null,
+   "avainsanat": [
+    "profilointi rikostorjunta",
+    "rikosprofilointi"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 6"
+  },
+  {
+   "id": "7a",
+   "ala": "Muuttoliikkeen hallinta, turvapaikka-asiat ja rajavalvonta, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Muuttoliike: valheenpaljastin",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joita on tarkoitus käyttää toimivaltaisten viranomaisten tai unionin toimielinten, elinten, toimistojen ja virastojen toimesta tai niiden puolesta valheenpaljastimina ja vastaavina välineinä;",
+   "huomio": null,
+   "avainsanat": [
+    "rajatarkastus valheenpaljastin"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 7"
+  },
+  {
+   "id": "7b",
+   "ala": "Muuttoliikkeen hallinta, turvapaikka-asiat ja rajavalvonta, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Muuttoliike: maahantulijan riskinarvio",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joita on tarkoitus käyttää toimivaltaisten viranomaisten toimesta tai niiden puolesta tai unionin toimielinten, elinten, toimistojen tai virastojen toimesta arvioitaessa luonnollisen henkilön, joka aikoo tulla tai on tullut jäsenvaltion alueelle, aiheuttamaa riskiä, mukaan lukien turvallisuusriski, sääntöjenvastaisen maahanmuuton riski ja terveysriski;",
+   "huomio": null,
+   "avainsanat": [
+    "maahantulo",
+    "rajavalvonta",
+    "riskinarvio maahantulija",
+    "border control"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 7"
+  },
+  {
+   "id": "7c",
+   "ala": "Muuttoliikkeen hallinta, turvapaikka-asiat ja rajavalvonta, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Turvapaikka-, viisumi- ja oleskelulupahakemukset",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joita on tarkoitus käyttää toimivaltaisten viranomaisten toimesta tai niiden puolesta tai unionin toimielinten, elinten, toimistojen tai virastojen toimesta toimivaltaisten viranomaisten avustamiseen turvapaikka-, viisumi- ja oleskelulupahakemusten ja niihin liittyvien valitusten käsittelyssä asemaa hakevien luonnollisten henkilöiden kelpoisuuden tarkastamiseksi, mukaan lukien todistusaineiston luotettavuuden arviointi;",
+   "huomio": null,
+   "avainsanat": [
+    "turvapaikka",
+    "viisumi",
+    "oleskelulupa",
+    "asylum",
+    "visa",
+    "residence permit"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 7"
+  },
+  {
+   "id": "7d",
+   "ala": "Muuttoliikkeen hallinta, turvapaikka-asiat ja rajavalvonta, jos niiden käyttö on sallittua asiaa koskevan unionin tai kansallisen lainsäädännön nojalla",
+   "lyhyt": "Muuttoliike: henkilöiden havaitseminen ja tunnistaminen",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joita on tarkoitus käyttää toimivaltaisten viranomaisten tai unionin toimielinten, elinten, toimistojen tai virastojen, toimesta tai niiden puolesta luonnollisten henkilöiden havaitsemiseen, tunnistamiseen tai henkilöllisyyden määrittämiseen muuttoliikkeen hallinnan, turvapaikka-asioiden tai rajavalvonnan yhteydessä, pois lukien matkustusasiakirjojen tarkastaminen.",
+   "huomio": null,
+   "avainsanat": [
+    "rajavalvonta tunnistus",
+    "henkilöllisyyden määrittäminen maahanmuutto"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 7"
+  },
+  {
+   "id": "8a",
+   "ala": "Oikeudenhoito ja demokraattiset prosessit",
+   "lyhyt": "Oikeudenhoito ja vaihtoehtoinen riidanratkaisu",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joita on tarkoitus käyttää oikeusviranomaisen toimesta tai oikeusviranomaisen puolesta sen avustamiseksi tosiseikkojen tai lainsäädännön tutkimisessa ja tulkinnassa sekä lainsäädännön soveltamisessa konkreettisiin tosiseikkoihin tai joita on tarkoitus käyttää vastaavalla tavalla vaihtoehtoisessa riidanratkaisussa;",
+   "huomio": null,
+   "avainsanat": [
+    "tuomioistuin",
+    "oikeusviranomainen",
+    "tuomari",
+    "riidanratkaisu",
+    "välimiesmenettely",
+    "sovittelu",
+    "court",
+    "judicial",
+    "arbitration",
+    "adr"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 8"
+  },
+  {
+   "id": "8b",
+   "ala": "Oikeudenhoito ja demokraattiset prosessit",
+   "lyhyt": "Vaalit ja äänestyskäyttäytyminen",
+   "virallinen_teksti": "Tekoälyjärjestelmät, joita on tarkoitus käyttää vaikuttamaan vaalin tai kansanäänestyksen tulokseen tai luonnollisten henkilöiden äänestyskäyttäytymiseen heidän äänestäessään vaaleissa tai kansanäänestyksissä. Tähän ei lueta tekoälyjärjestelmiä, joiden tuotokselle luonnolliset henkilöt eivät suoraan altistu, kuten välineet, joita käytetään poliittisten kampanjoiden järjestämiseen, optimointiin tai jäsentämiseen hallinnollisesti ja logistiselta kannalta.",
+   "huomio": "Ei koske hallinnollisia ja logistisia kampanjatyökaluja, joiden tuotokselle luonnolliset henkilöt eivät suoraan altistu.",
+   "avainsanat": [
+    "vaalit",
+    "vaali",
+    "kansanäänestys",
+    "äänestyskäyttäytyminen",
+    "vaalikampanja",
+    "election",
+    "voting behaviour"
+   ],
+   "valvova_viranomainen": [
+    {
+     "id": "tietosuojavaltuutettu",
+     "nimi": "Tietosuojavaltuutetun toimisto",
+     "peruste": "1377/2025 3 § 2 mom. 4 k."
+    }
+   ],
+   "artikla": "6 art. 2 kohta ja liite III kohta 8"
+  }
+ ]
+}

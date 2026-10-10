@@ -1,0 +1,35 @@
+{
+ "_meta": {
+  "kuvaus": "Tekoälyasetuksen valvonnan järjestäminen Suomessa: laki eräiden tekoälyjärjestelmien valvonnasta (1377/2025), voimaan 1.1.2026. Tarkistettu alkuperäisestä säädöstekstistä; tarkista mahdolliset myöhemmät muutokset Finlexistä.",
+  "laki": "Laki eräiden tekoälyjärjestelmien valvonnasta (1377/2025)",
+  "finlex": "https://www.finlex.fi/fi/lainsaadanto/2025/1377"
+ },
+ "tehtavat": [
+  {"tehtava": "Keskitetty yhteyspiste ja viranomaisyhteistyön koordinointi", "viranomainen": "Liikenne- ja viestintävirasto (Traficom)", "peruste": "1377/2025 6 §; tekoälyasetus 70 art. 2 kohta"},
+  {"tehtava": "Kiellettyjen käytäntöjen (5 art.) valvonta", "viranomainen": "Tietosuojavaltuutettu", "peruste": "1377/2025 4 §"},
+  {"tehtava": "Avoimuusvelvoitteiden (50 art.) valvonta", "viranomainen": "Liikenne- ja viestintävirasto (Traficom)", "peruste": "1377/2025 5 §", "poikkeus": "Suuririskisen järjestelmän tarjoajan ja käyttöönottajan 50 art. velvoitteita valvoo kyseisen järjestelmän toimivaltainen markkinavalvontaviranomainen (3 §)."},
+  {"tehtava": "Seuraamusmaksujen määrääminen", "viranomainen": "Tekoälyjärjestelmien valvonnan seuraamusmaksulautakunta (Traficomin yhteydessä)", "peruste": "1377/2025 13 §", "huom": "Määrää maksun toimivaltaisen markkinavalvontaviranomaisen esityksestä."},
+  {"tehtava": "Euroopan keskuspankille ilmoittaminen", "viranomainen": "Finanssivalvonta", "peruste": "1377/2025 7 §"},
+  {"tehtava": "Ilmoitettuna laitoksena toimiminen (lainvalvonta-, maahanmuutto- ja turvapaikkaviranomaisten liitteen III kohdan 1 järjestelmät)", "viranomainen": "Tietosuojavaltuutettu", "peruste": "1377/2025 11 §"}
+ ],
+ "liite_i": [
+  {"saados": "2 (lelut)", "viranomainen": "Turvallisuus- ja kemikaalivirasto (Tukes); Tulli markkinavalvontalain 4 §:n 2 mom. ja lelulain 56 §:n 2 mom. mukaisesti", "peruste": "1377/2025 3 § 1 mom. 1–2 k."},
+  {"saados": "3 (huviveneet ja vesiskootterit)", "viranomainen": "Liikenne- ja viestintävirasto (Traficom)", "peruste": "1377/2025 3 § 1 mom. 3 k."},
+  {"saados": "4 (hissit)", "viranomainen": "Turvallisuus- ja kemikaalivirasto (Tukes)", "peruste": "1377/2025 3 § 1 mom. 1 k."},
+  {"saados": "5 (räjähdysvaarallisten tilojen laitteet)", "viranomainen": "Turvallisuus- ja kemikaalivirasto (Tukes)", "peruste": "1377/2025 3 § 1 mom. 1 k."},
+  {"saados": "6 (radiolaitteet)", "viranomainen": "Liikenne- ja viestintävirasto (Traficom)", "peruste": "1377/2025 3 § 1 mom. 3 k."},
+  {"saados": "7 (painelaitteet)", "viranomainen": "Turvallisuus- ja kemikaalivirasto (Tukes)", "peruste": "1377/2025 3 § 1 mom. 1 k."},
+  {"saados": "8 (köysiratalaitteistot)", "viranomainen": "Lupa- ja valvontavirasto (työsuojeluviranomainen)", "peruste": "1377/2025 3 § 1 mom. 4 k."},
+  {"saados": "9 (henkilönsuojaimet)", "viranomainen": "Tukes (kuluttajatuotteet) tai Lupa- ja valvontavirasto (työsuojelun valvonnan alaiset tuotteet)", "peruste": "1377/2025 3 § 1 mom. 1 ja 4 k."},
+  {"saados": "10 (kaasulaitteet)", "viranomainen": "Turvallisuus- ja kemikaalivirasto (Tukes)", "peruste": "1377/2025 3 § 1 mom. 1 k."},
+  {"saados": "11 (lääkinnälliset laitteet)", "viranomainen": "Lääkealan turvallisuus- ja kehittämiskeskus (Fimea)", "peruste": "1377/2025 3 § 1 mom. 5 k."},
+  {"saados": "12 (in vitro -diagnostiikka)", "viranomainen": "Lääkealan turvallisuus- ja kehittämiskeskus (Fimea)", "peruste": "1377/2025 3 § 1 mom. 5 k."},
+  {"saados": "1 (koneet)", "viranomainen": "Ei enää liitteen I A-jaksossa", "peruste": "Asetus (EU) 2026/1744 siirsi koneasetuksen (EU) 2023/1230 liitteen I B-jaksoon. Lain 1377/2025 3 §:n 1 mom. viittaukset A-jakson 1 kohtaan (Tukes / Lupa- ja valvontavirasto) koskivat koneita; tarkista kansallisen lain mahdollinen päivitys."}
+ ],
+ "huomiot": [
+  "Lupa- ja valvontavirasto toimii lain 3 §:ssä työsuojeluviranomaisena sekä liitteen III 5 a ja 5 d -kohtien valvojana.",
+  "Seuraamusmaksua ei voida määrätä valtion tai kunnan viranomaiselle, hyvinvointialueelle, itsenäiselle julkisoikeudelliselle laitokselle eikä evankelis-luterilaiselle tai ortodoksiselle kirkolle (1377/2025 24 § 3 mom.).",
+  "Seuraamusmaksun vanhentumisaika on viisi vuotta rikkomuksesta tai jatkuvan rikkomuksen päättymisestä (1377/2025 24 § 4 mom.).",
+  "Lain 21 § (kiellettyjen käytäntöjen seuraamusmaksu) luettelee 5 artiklan a–g alakohdat. Asetuksella (EU) 2026/1744 lisätyt kiellot b a ja b b eivät sisälly lain alkuperäiseen tekstiin; tarkista kansallisen lain muutokset."
+ ]
+}
