@@ -1,0 +1,53 @@
+Tietoa EU:n tekoälyasetuksesta
+Euroopan unionin tekoälyasetuksen (Artificial Intelligence Act) tavoitteena on edistää luotettavaa tekoälyn käyttöä Euroopassa. Sen tarkoituksena on varmistaa, että EU:n alueella markkinoille tuotavat ja käyttöönotettavat tekoälyjärjestelmät eivät vaaranna ihmisten terveyttä, turvallisuutta tai perusoikeuksia.
+Asetus luo tekoälyn käytölle yhteiset säännöt, jotta tekoälyä käytetään reilusti, asianmukaisesti ja läpinäkyvästi. Se säätelee tekoälyjärjestelmiä niiden aiheuttamien riskien perusteella. Erittäin haitalliset tekoälyn käyttötavat kielletään ja tietyille korkeariskiseksi luokiteltaville tekoälyjärjestelmille asetetaan tiukennettuja vaatimuksia.
+Asetus edellyttää, että yritysten käyttöön tulee sääntelyn testiympäristö, jossa ne voivat kokeilla ja kehittää tekoälyä valvotuissa olosuhteissa.
+Tekoälyasetuksen toimijoiden velvollisuudet
+Tekoälyn sääntelyn testiympäristöt
+Mitä tekoälyjärjestelmät ovat?
+Tekoälyjärjestelmällä tarkoitetaan konepohjaista järjestelmää, joka toimii ainakin osittain autonomisesti ja voi mukauttaa omaa toimintaansa järjestelmän käyttöönoton jälkeen. Järjestelmä päättelee vastaanottamansa syötteen perusteella, miten se tuottaa järjestelmän tavoitteiden mukaisia tuotoksia, kuten ennusteita, sisältöä, suosituksia tai päätöksiä.
+Tekoälymallit ovat olennainen osa tekoälyjärjestelmiä, mutta ne eivät muodosta kokonaisia järjestelmiä yksin. Jotta tekoälymallista tulee varsinainen tekoälyjärjestelmä, siinä tulee olla myös muita osia, esimerkiksi käyttöliittymä. Tekoälyasetus säätelee pääasiassa tekoälyjärjestelmiä, ei tekoälymalleja. Asetus sisältää kuitenkin sääntöjä myös yleiskäyttöisille tekoälymalleille.
+Yleiskäyttöisellä tekoälymallilla tarkoitetaan mallia, joka on hyvin yleisluonteinen, pystyy suorittamaan pätevästi monenlaisia tehtäviä ja joka voidaan integroida erilaisiin järjestelmiin tai sovelluksiin.
+Tekoälyasetusta sovelletaan, kun tekoälyjärjestelmä tai yleiskäyttöinen tekoälymalli tuodaan Euroopan unionin markkinoille tai otetaan käyttöön EU:ssa. Sitä sovelletaan myös, kun tekoälyjärjestelmää käyttää toimija, jolla on toimipaikka tai joka toimii EU:ssa.
+!accordion.classList.contains('closed')); accordions.forEach(accordion => { if (allOpen) { accordion.classList.add('closed'); const button = accordion.querySelector('button'); if (button) button.setAttribute('aria-expanded', 'false'); } else { accordion.classList.remove('closed'); const button = accordion.querySelector('button'); if (button) button.setAttribute('aria-expanded', 'true'); } }); const buttonLabel = this.querySelector('.button-label'); if (buttonLabel) { buttonLabel.textContent = allOpen ? 'Avaa kaikki' : 'Sulje kaikki'; } this.setAttribute('aria-expanded', allOpen ? 'false' : 'true');" id=89985-toggle-all-button > Avaa kaikki
+!accordion.classList.contains('closed')); const toggleButton = accordionGroup.querySelector('#89985-toggle-all-button'); const buttonLabel = toggleButton ? toggleButton.querySelector('.button-label') : null; if (buttonLabel) { buttonLabel.textContent = allOpen ? 'Sulje kaikki' : 'Avaa kaikki'; } if (toggleButton) { toggleButton.setAttribute('aria-expanded', allOpen ? 'true' : 'false'); } }" > Tekoälyjärjestelmien riskiperusteinen jaottelu
+Tekoälyasetus asettaa velvoitteita tekoälyjärjestelmille riskiperusteisesti:
+Tietyt tekoälyjärjestelmät ja käyttötarkoitukset on kielletty.
+Suuririskisille järjestelmille asetetaan laajasti velvollisuuksia, ennen kuin ne voidaan asettaa markkinoille.
+Tietyille matalan riskin järjestelmille on asetettu avoimuusvelvoitteita.
+Näiden lisäksi on olemassa niin vähäisen riskin tekoälyjärjestelmiä, ettei niillä ole asetuksen perusteella mitään velvollisuuksia. Huom. yleiskäyttöisiä tekoälymalleja säädellään erikseen.
+!accordion.classList.contains('closed')); const toggleButton = accordionGroup.querySelector('#89985-toggle-all-button'); const buttonLabel = toggleButton ? toggleButton.querySelector('.button-label') : null; if (buttonLabel) { buttonLabel.textContent = allOpen ? 'Sulje kaikki' : 'Avaa kaikki'; } if (toggleButton) { toggleButton.setAttribute('aria-expanded', allOpen ? 'true' : 'false'); } }" > Kielletyt tekoälyjärjestelmät
+Mahdollisten haitallisten vaikutusten vuoksi tekoälyn käyttö on kielletty seuraaviin tarkoituksiin:
+manipuloivat tai harhaanjohtavat tekniikat
+tekniikat, jotka hyödyntävät ihmisten haavoittuvuuksia, olennaisesti vääristävät käyttäytymistä ja aiheuttavat merkittävää vahinkoa
+sosiaalinen pisteytys tietyissä käyttötapauksissa
+rikollisuuden ennustaminen profiloinnin perusteella
+verkon tai turvakameroiden tietojen kaapiminen kasvojentunnistustietokantojen luomiseksi
+tunteiden päättely työpaikoilla tai kouluissa
+ihmisten biometrinen luokittelu rodun, poliittisen mielipiteen, ammattiliiton jäsenyyden, uskonnollisten tai poliittisten vakaumusten, seksuaalielämän tai seksuaalisen suuntautumisen päättelemiseksi.
+!accordion.classList.contains('closed')); const toggleButton = accordionGroup.querySelector('#89985-toggle-all-button'); const buttonLabel = toggleButton ? toggleButton.querySelector('.button-label') : null; if (buttonLabel) { buttonLabel.textContent = allOpen ? 'Sulje kaikki' : 'Avaa kaikki'; } if (toggleButton) { toggleButton.setAttribute('aria-expanded', allOpen ? 'true' : 'false'); } }" > Suuririskiset järjestelmät
+Tekoälyasetuksen sääntely koskee pääosin suuririskisiä tekoälyjärjestelmiä. Näillä tarkoitetaan tekoälyjärjestelmiä, joilla voi olla merkittävä haitallinen vaikutus EU:n kansalaisten terveyteen, turvallisuuteen ja perusoikeuksiin.
+Suuririskinen tekoälyjärjestelmä on sellainen järjestelmä, jossa tekoälyjärjestelmää käytetään turvakomponenttina tietyissä tekoälyasetuksessa määritellyissä tuotteissa, kuten hisseissä, radiolaitteissa tai moottoriajoneuvoissa, tai tekoälyjärjestelmä on itsessään tekoälyasetuksessa määritetty tuote. Lisäksi suuririskiseksi tekoälyjärjestelmäksi luokitteluun sisältyy se, että tuotteelle on tehtävä kolmannen osapuolen tarkastus, ennen kuin se voidaan myydä tai ottaa käyttöön EU:ssa.
+Myös tiettyihin asetuksessa määriteltyihin tarkoituksiin, kuten rekrytointiin ja kriittisen digitaalisen infrastruktuurin hallintaan, käytettävät tekoälyjärjestelmät ovat lähtökohtaisesti suuririskisiä.
+Suuririskisille tekoälyjärjestelmille on asetettu velvoitteita, jotka koskevat muun muassa järjestelmän keräämiä lokitietoja, riskienhallintajärjestelmiä, teknistä dokumentaatiota, kyberturvallisuutta ja järjestelmässä käytettävään dataa.
+!accordion.classList.contains('closed')); const toggleButton = accordionGroup.querySelector('#89985-toggle-all-button'); const buttonLabel = toggleButton ? toggleButton.querySelector('.button-label') : null; if (buttonLabel) { buttonLabel.textContent = allOpen ? 'Sulje kaikki' : 'Avaa kaikki'; } if (toggleButton) { toggleButton.setAttribute('aria-expanded', allOpen ? 'true' : 'false'); } }" > Avoimuusvelvoitteet matalan riskin järjestelmille
+Tietyille matalan riskin tekoälyjärjestelmille asetetaan avoimuusvelvoitteita:
+Tekoälyjärjestelmät, jotka on suunniteltu vuorovaikutukseen henkilöiden kanssa (esim. chatbotit), on suunniteltava ja kehitettävä niin, että henkilölle kerrotaan selvästi, että he ovat vuorovaikutuksessa tekoälyjärjestelmän kanssa.
+Tekoälyjärjestelmien tarjoajien on merkittävä tekoälyn tuottama sisältö (ääni, kuvat, videot, teksti) niin, että se erottuu ihmisen tuottamasta sisällöstä.
+Tunteiden tunnistamiseen tai biometriseen luokitteluun tarkoitetuille järjestelmille altistuvia henkilöitä on tiedotettava järjestelmien käytöstä, kun tällaiset järjestelmät on asetuksessa sallittu.
+Tekoälyjärjestelmän, joka tuottaa tai manipuloi syväväärennöksen (deep fake) muodostavaa kuva-, ääni- tai videosisältöä, on ilmoitettava, että sisältö on keinotekoisesti tuotettu tai sitä on manipuloitu.
+!accordion.classList.contains('closed')); const toggleButton = accordionGroup.querySelector('#89985-toggle-all-button'); const buttonLabel = toggleButton ? toggleButton.querySelector('.button-label') : null; if (buttonLabel) { buttonLabel.textContent = allOpen ? 'Sulje kaikki' : 'Avaa kaikki'; } if (toggleButton) { toggleButton.setAttribute('aria-expanded', allOpen ? 'true' : 'false'); } }" > Yleiskäyttöiset tekoälymallit
+Yleiskäyttöisellä tekoälymallilla tarkoitetaan mallia, joka on hyvin yleisluonteinen, pystyy suorittamaan pätevästi monenlaisia tehtäviä ja voidaan integroida erilaisiin järjestelmiin tai sovelluksiin. Yleiskäyttöisiä tekoälymalleja ovat esimerkiksi niin sanotut suuret kielimallit.
+Yleiskäyttöisille tekoälymalleille on asetettu velvoitteita mm. mallin tekniseen dokumentaatioon ja mallin koulutukseen käytetyn datan avoimuuteen liittyen. Yleiskäyttöisille tekoälymalleille, joilla on merkittävä suorituskyky, on lisävelvoitteita. Tekoälyasetus ei määritä velvoitteita muille tekoälymalleille kuin yleiskäyttöisille tekoälymalleille. Niitä valvoo Euroopan komissio.
+Muille kuin yleiskäyttöisille tekoälymalleille, kuten tiettyyn käyttötarkoitukseen erikoistuneille malleille, ei aseteta suoria velvoitteita tekoälyasetuksessa. Tällainen muu tekoälymalli voi kuitenkin olla osa tekoälyasetuksen velvoitteiden piirissä olevaa tekoälyjärjestelmää.
+Käyttäjän oikeudet
+Tekoälyasetus keskittyy tekoälyjärjestelmien tarjoajien ja muiden toimijoiden velvoitteisiin. Asetuksen myötä myös niiden käyttäjillä on tiettyjä oikeuksia:
+Käyttäjät voivat tehdä valituksen viranomaiselle, jos he epäilevät, että tekoälyasetuksen säännöksiä on rikottu.
+Jos käyttäjää kohtaan tehdään vaikutukseltaan merkittävä päätös, joka perustuu suuririskisen tekoälyjärjestelmän toimintaan, käyttäjällä on oikeus saada selvitys päätöksen pääkohdista ja tekoälyjärjestelmän roolista päätöksessä.
+Data-, tekoäly- ja datanhallinta-asetuksien asiakaspalvelu (yhteydenottolomake)
+Sivu on viimeksi päivitetty 26.5.2026 26. toukokuuta 2026
+
+LÄHTEEN VIRALLISET LINKIT
+https://www.traficom.fi/fi/tekoalyn-saantely/tekoalyasetuksen-toimijoiden-velvollisuudet
+https://www.traficom.fi/fi/tekoalyn-saantely/tekoalyn-saantelyn-testiymparistot
+https://www.traficom.fi/fi/yhteystiedot/asiakaspalvelu/data-tekoaly-ja-datanhallinta-asetuksien-asiakaspalvelu

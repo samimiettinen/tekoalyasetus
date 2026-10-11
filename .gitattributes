@@ -1,0 +1,2 @@
+# Vertailutekstit tuotetaan virallisista lähteistä. Ne ovat avattavissa PR-diffissä.
+seuranta/tekstit/*.txt linguist-generated=true

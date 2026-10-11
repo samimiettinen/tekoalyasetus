@@ -1,0 +1,59 @@
+name: Lähdeseuranta
+
+on:
+  schedule:
+    - cron: '23 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lahdeseuranta
+  cancel-in-progress: false
+
+jobs:
+  paivitysehdotus:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Tarkista lähteiden sisältö ja muutosviitteet
+        id: lahteet
+        run: |
+          tarkistus=0
+          node scripts/tarkista-lahteet.mjs --paivita --raportti="$RUNNER_TEMP/lahdeseuranta" || tarkistus=$?
+          echo "tarkistus=$tarkistus" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Tarkista päivitysehdotus ennen julkaisua
+        run: |
+          node scripts/validoi.mjs
+          node scripts/generoi-codex.mjs --tarkista
+          node --test tests/*.test.mjs
+      - name: Avaa tai päivitä luonnos-PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/avaa-lahde-pr.mjs
+      - name: Tallenna lähdekohtaiset tulokset
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lahdeseuranta
+          path: ${{ runner.temp }}/lahdeseuranta
+          retention-days: 30
+          if-no-files-found: error
+      - name: Merkitse puutteellinen lähdetarkistus epäonnistuneeksi
+        if: always() && steps.lahteet.outputs.tarkistus != '0'
+        run: |
+          echo 'Kaikkia lähteitä ei voitu tarkistaa. Katso ajon loki ja lahdeseuranta-artifact.' >&2
+          exit 1

@@ -4,9 +4,10 @@ on:
   push:
     branches: [main]
   pull_request:
-  schedule:
-    - cron: '0 6 1 * *'
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   testit:
@@ -22,14 +23,3 @@ jobs:
       - run: node scripts/validoi.mjs
       - run: node scripts/generoi-codex.mjs --tarkista
       - run: node --test tests/*.test.mjs
-
-  lahteet:
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-      - run: node scripts/tarkista-lahteet.mjs

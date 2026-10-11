@@ -1,6 +1,6 @@
 {
   "name": "tekoalyasetus",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "EU:n tekoälyasetus (AI Act) Suomessa toimiville organisaatioille: skillit Claudelle ja Codexille, riippuvuukseton MCP-palvelin ja käyttöönottopohjat.",
   "type": "module",
   "license": "MIT",

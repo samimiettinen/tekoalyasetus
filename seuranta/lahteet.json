@@ -1,0 +1,100 @@
+[
+  {
+    "id": "eu-tekoalyasetus",
+    "nimi": "Tekoälyasetuksen alkuperäinen teksti (Cellar)",
+    "url": "https://publications.europa.eu/resource/cellar/dc8116a1-3fe6-11ef-865a-01aa75ed71a1.0008.03/DOC_1",
+    "muoto": "html",
+    "tunnisteet": [
+      "2024/1689",
+      "Määritelmät",
+      "Soveltamisala"
+    ],
+    "vahintaan": 100000
+  },
+  {
+    "id": "eu-muutosasetus",
+    "nimi": "Muutosasetus (EU) 2026/1744 (Cellar)",
+    "url": "https://publications.europa.eu/resource/cellar/b459c07f-86fb-11f1-bf5e-01aa75ed71a1.0008.03/DOC_1",
+    "muoto": "html",
+    "tunnisteet": [
+      "2026/1744",
+      "2024/1689",
+      "artikla"
+    ],
+    "vahintaan": 10000
+  },
+  {
+    "id": "eu-muutosviitteet",
+    "nimi": "Cellar: säädösmuutokset, oikaisut, konsolidoinnit ja oikeusperustat",
+    "url": "https://publications.europa.eu/webapi/rdf/sparql",
+    "muoto": "cellar",
+    "kohteet": [
+      "32024R1689",
+      "32026R1744"
+    ]
+  },
+  {
+    "id": "finlex-valvontalaki",
+    "nimi": "Valvontalain 1377/2025 ajantasainen XML",
+    "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute-consolidated/2025/1377/fin@latest",
+    "muoto": "xml",
+    "tunnisteet": [
+      "/statute-consolidated/2025/1377/",
+      "Laki eräiden tekoälyjärjestelmien valvonnasta"
+    ],
+    "vahintaan": 10000
+  },
+  {
+    "id": "komissio",
+    "nimi": "Komission tekoälyasetussivu ja ohjeiden linkit",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "muoto": "html",
+    "tunnisteet": [
+      "AI Act",
+      "risk"
+    ],
+    "vahintaan": 1000
+  },
+  {
+    "id": "traficom",
+    "nimi": "Traficom: tietoa EU:n tekoälyasetuksesta",
+    "url": "https://www.traficom.fi/fi/tekoalyn-saantely/tietoa-eun-tekoalyasetuksesta",
+    "muoto": "html",
+    "tunnisteet": [
+      "tekoälyaset",
+      "velvoit"
+    ],
+    "vahintaan": 1000
+  },
+  {
+    "id": "tietosuoja",
+    "nimi": "Tietosuojavaltuutetun toimiston julkaisut ja linkit",
+    "url": "https://tietosuoja.fi",
+    "muoto": "html",
+    "tunnisteet": [
+      "tietosuoja"
+    ],
+    "vahintaan": 1000
+  },
+  {
+    "id": "dvv-hallintamalli",
+    "nimi": "DVV: tekoälyn hallintamalli",
+    "url": "https://kehittajille.suomi.fi/palvelut/digiturva/tietoturva/tekoaly/tekoalyn-hallintamalli",
+    "muoto": "html",
+    "tunnisteet": [
+      "tekoälyn hallintamalli",
+      "tarkistuslista"
+    ],
+    "vahintaan": 500
+  },
+  {
+    "id": "dvv-kayttoonotto",
+    "nimi": "DVV: tekoälyn käyttöönoton työkalut",
+    "url": "https://kehittajille.suomi.fi/palvelut/digiturva/tietoturva/tekoaly/tekoalyn-kayttoonoton-tyokalut",
+    "muoto": "html",
+    "tunnisteet": [
+      "tekoälyn käyttöönoton"
+    ],
+    "vahintaan": 1000
+  }
+]
