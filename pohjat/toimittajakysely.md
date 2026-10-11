@@ -38,3 +38,20 @@
 ## F. Sopimus
 
 17. Hyväksyykö toimittaja sopimusehdot, jotka koskevat tekoälyasetuksen noudattamista, tiedonantoa ja yhteistyötä viranomaisten kanssa (25 art. 4 kohta)?
+
+## G. Sopimusehdot ja hankinta
+
+> Hankinta- ja sopimusvaihetta varten. Ehdot ovat suosituksia, jotka organisaatio mukauttaa riskiin. Ne eivät ole lakisääteisiä vaatimuksia, ellei peruste ole merkitty.
+
+| # | Ehto | Toimittajan vastaus | Huomio |
+|---|---|---|---|
+| 18 | Toimittaja vastaa tekoälyasetuksen ja muun sovellettavan sääntelyn noudattamisesta koko sopimuskauden ajan, myös sääntelyn muuttuessa. | | |
+| 19 | Toimittaja ilmoittaa etukäteen uusista tekoälytoiminnoista ja olemassa olevien olennaisista muutoksista (malli, käyttötarkoitus, alikäsittelijä, käsittelysijainti). Asiakas voi jättää uuden toiminnon käyttöön ottamatta tai kytkeä sen pois. | | |
+| 20 | Asiakas voi keskeyttää tekoälytoiminnon käytön, jos se aiheuttaa riskin tai on vaatimustenvastainen, ilman sopimusrikkomusta. Suuririskisen järjestelmän käyttöönottajan on keskeytettävä käyttö 26 art. 5 kohdan tilanteissa. | | |
+| 21 | Tiedonsaanti- ja auditointioikeus: dokumentaatio, testaus- ja arviointitulokset, todistukset sekä kohtuullinen tarkastusoikeus asiakkaalle tai sen valtuuttamalle tarkastajalle. | | |
+| 22 | Asiakkaan tietoja, syötteitä ja tuotoksia ei käytetä mallien koulutukseen tai parantamiseen ilman erillistä sopimusta. Säilytysajat ja poisto sopimuksen päättyessä on sovittu. | | |
+| 23 | Suuririskisissä järjestelmissä lokit ovat asiakkaan saatavilla ja säilytettävissä vähintään 26 art. 6 kohdan edellyttämän ajan. | | |
+| 24 | Yhteistyö riskeissä, vaaratilanteissa ja viranomaispyynnöissä: nimetty yhteyshenkilö, ilmoitusten määräajat ja tiedot, joita asiakas tarvitsee omien velvoitteidensa täyttämiseen. | | |
+| 25 | Vastuu ja korvaus, jos toimittajan laiminlyönti aiheuttaa asiakkaalle vahinkoa tai velvoitteiden rikkomisen. | | |
+
+**Julkinen hankinta.** Erottele tarjouspyynnössä ehdottomat vähimmäisvaatimukset (esimerkiksi ehdot 18, 20 ja 22) ja vertailuperusteet (esimerkiksi selitettävyys, testaustulosten kattavuus, lokien saatavuus). Kirjaa vaatimukset jo tarjouspyyntöön ja sopimusluonnokseen. Tarkista menettelyt hankintalaista (1397/2016) tai erityisalojen hankintalaista (1398/2016).

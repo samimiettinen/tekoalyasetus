@@ -11,7 +11,7 @@ EU:n tekoälyasetuksen (AI Act, asetus (EU) 2024/1689) käyttöönotto yrityksis
 | `mcp/` | MCP-palvelin puhtaalla Node.js:llä (18+). Ei npm-riippuvuuksia. Sama syöte, arviointipäivä ja aineisto tuottavat saman tuloksen. Palvelimessa ei ole kielimallia. |
 | `mcp/data/` | Virallinen suomenkielinen säädösteksti EUR-Lexistä (alkuperäinen ja muutosasetuksen muutokset erikseen), liite III, kiellot, velvoitteet roolin mukaan, aikataulu, seuraamukset ja valvontaviranomaiset Suomessa. |
 | `skills/` | Kahdeksan skilliä käyttöönoton vaiheisiin. |
-| `pohjat/` | Täytettävät pohjat: inventaario, luokitusmuistio, perusoikeusarviointi, toimittajakysely, käyttöperiaatteet, politiikan muutosraportti, avoimuusilmoitukset ja due diligence -tietopyyntö. |
+| `pohjat/` | Täytettävät pohjat: inventaario, luokitusmuistio, perusoikeusarviointi, tietosuojan vaikutustenarvioinnin tekoälylisäosa, toimittajakysely sopimusehtoineen, käyttöperiaatteet, politiikan muutosraportti, avoimuusilmoitukset ja due diligence -tietopyyntö. |
 
 ### Skillit
 
@@ -22,7 +22,7 @@ EU:n tekoälyasetuksen (AI Act, asetus (EU) 2024/1689) käyttöönotto yrityksis
 | `roolit-ja-velvoitteet` | Tarjoaja vai käyttöönottaja? 25 artiklan roolinvaihdot ja velvoitteet päivämäärineen. |
 | `avoimuus` | 50 artikla: chatbotit, synteettisen sisällön merkintä, syväväärennökset, ilmoitustekstit. |
 | `perusoikeusarviointi` | 27 artiklan FRIA yhdessä DPIA:n kanssa. |
-| `hallintamalli` | Vastuut, tekoälylukutaito (4 art.), käyttöperiaatteet, hankintaportti, ISO/IEC 42001. |
+| `hallintamalli` | Vastuut, tekoälylukutaito (4 art.), käyttöperiaatteet, hankintaportti, henkilöstön osallistuminen (yhteistoiminta), ISO/IEC 42001. |
 | `kayttopolitiikka` | Interaktiivinen: päivittää vanhan tekoälypolitiikan (muutosraportti, uusi versio, saate) tai laatii uuden politiikkapaketin. |
 | `yrityskauppa-dd` | Tekoälyasetus yrityskaupassa: tietopyyntö, punaiset liput, sopimusehdot (ostaja ja myyjä). |
 
@@ -137,7 +137,7 @@ Mukana olevan säädösaineiston mukainen tila annettuna päivänä työkalulla 
 
 ## Lähteet
 
-Kokoelma käyttää vain virallisia lähteitä: EUR-Lex (asetukset (EU) 2024/1689 ja (EU) 2026/1744), Finlex (laki 1377/2025) sekä viranomaisten ohjeet (Traficom, tietosuojavaltuutettu, Euroopan komissio). Luettelo: `mcp/data/lahteet.json`. Konsolidoitua versiota ei ole laadittu. Alkuperäinen teksti ja muutokset esitetään erikseen, jotta muutokset ovat jäljitettävissä.
+Kokoelma käyttää vain virallisia lähteitä: EUR-Lex (asetukset (EU) 2024/1689 ja (EU) 2026/1744 sekä tietosuoja-asetus (EU) 2016/679), Finlex (laki 1377/2025 sekä henkilöstöä, tietosuojaa ja hankintoja koskevat viittaukset: yhteistoimintalaki 1333/2021, laki 759/2004, julkisen sektorin yhteistoimintalait 449/2007 ja 1233/2013, tietosuojalaki 1050/2018, hankintalait 1397/2016 ja 1398/2016) sekä viranomaisten ohjeet (Traficom, tietosuojavaltuutettu, Euroopan komissio). Luettelo: `mcp/data/lahteet.json`. Konsolidoitua versiota ei ole laadittu. Alkuperäinen teksti ja muutokset esitetään erikseen, jotta muutokset ovat jäljitettävissä.
 
 ### Tunnetut rajoitukset
 

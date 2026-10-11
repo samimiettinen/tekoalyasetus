@@ -1,6 +1,6 @@
 {
   "name": "tekoalyasetus",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "EU:n tekoälyasetus (AI Act) Suomessa toimiville organisaatioille: inventaario, riskiluokittelu, roolit ja velvoitteet, avoimuus, perusoikeusarviointi, hallintamalli ja yrityskaupan due diligence. Riippuvuukseton MCP-palvelin ja muutosasetuksen (EU) 2026/1744 päivämäärät.",
   "author": {
     "name": "Sami Miettinen"

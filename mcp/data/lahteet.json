@@ -1,12 +1,22 @@
 {
  "_meta": {
-  "kuvaus": "Viralliset lähteet. Kokoelma käyttää vain säädöstekstejä ja viranomaisten julkaisuja.",
-  "tarkistettu": "2026-10-10"
+  "kuvaus": "Viralliset lähteet. Kokoelma käyttää vain säädöstekstejä ja viranomaisten julkaisuja. Arviointiperusta luettelee saadokset-kentän; liittyvat_saadokset ovat skillien ja pohjien viittaamia muita säädöksiä.",
+  "tarkistettu": "2026-10-11"
  },
  "saadokset": [
   {"nimi": "Asetus (EU) 2024/1689 (tekoälyasetus), suomenkielinen toisinto", "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32024R1689", "huom": "Alkuperäinen teksti, EUVL L 12.7.2024."},
   {"nimi": "Asetus (EU) 2026/1744 (Digital Omnibus on AI), muutosasetus", "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=OJ:L_202601744", "huom": "EUVL L 24.7.2026, voimaan 27.7.2026."},
   {"nimi": "Laki eräiden tekoälyjärjestelmien valvonnasta (1377/2025)", "url": "https://www.finlex.fi/fi/lainsaadanto/2025/1377", "huom": "Voimaan 1.1.2026."}
+ ],
+ "liittyvat_saadokset": [
+  {"nimi": "Asetus (EU) 2016/679 (yleinen tietosuoja-asetus)", "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32016R0679", "huom": "Tietosuojan vaikutustenarviointi (35 ja 36 art.), automaattiset päätökset (22 art.); viitataan tekoälyasetuksen 26 art. 9 kohdassa ja 27 art. 4 kohdassa."},
+  {"nimi": "Tietosuojalaki (1050/2018)", "url": "https://www.finlex.fi/fi/lainsaadanto/2018/1050", "huom": "Tietosuojavaltuutettu on tietosuoja-asetuksen tarkoittama kansallinen valvontaviranomainen (8 §)."},
+  {"nimi": "Yhteistoimintalaki (1333/2021)", "url": "https://www.finlex.fi/fi/lainsaadanto/2021/1333", "huom": "Soveltamisala 2 §, vuoropuhelu 7 a ja 12 §, muutosneuvottelut uuden teknologian käyttöönotossa 16 §; tekoälyasetuksen 26 art. 7 kohdan tiedottamismenettelyjen kansallinen yhteys."},
+  {"nimi": "Laki yksityisyyden suojasta työelämässä (759/2004)", "url": "https://www.finlex.fi/fi/lainsaadanto/2004/759", "huom": "Teknisen valvonnan yhteistoiminta tai kuuleminen ja tiedottaminen 21 §."},
+  {"nimi": "Laki työnantajan ja henkilöstön välisestä yhteistoiminnasta kunnassa ja hyvinvointialueella (449/2007)", "url": "https://www.finlex.fi/fi/lainsaadanto/2007/449", "huom": "Julkisen sektorin yhteistoiminta."},
+  {"nimi": "Laki yhteistoiminnasta valtion virastoissa ja laitoksissa (1233/2013)", "url": "https://www.finlex.fi/fi/lainsaadanto/2013/1233", "huom": "Julkisen sektorin yhteistoiminta."},
+  {"nimi": "Laki julkisista hankinnoista ja käyttöoikeussopimuksista (1397/2016)", "url": "https://www.finlex.fi/fi/lainsaadanto/2016/1397", "huom": "Tekoälyhankinnat julkisella sektorilla."},
+  {"nimi": "Laki vesi- ja energiahuollon, liikenteen ja postipalvelujen alalla toimivien yksiköiden hankinnoista ja käyttöoikeussopimuksista (1398/2016)", "url": "https://www.finlex.fi/fi/lainsaadanto/2016/1398", "huom": "Erityisalojen hankinnat."}
  ],
  "viranomaiset": [
   {"nimi": "Traficom: tekoälyn sääntely ja tietoa EU:n tekoälyasetuksesta", "url": "https://www.traficom.fi/fi/tekoalyn-saantely/tietoa-eun-tekoalyasetuksesta", "huom": "Kansallinen keskitetty yhteyspiste; avoimuusvelvoitteiden valvonta."},

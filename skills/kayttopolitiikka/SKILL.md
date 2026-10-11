@@ -50,6 +50,7 @@ Molemmat polut tarvitsevat nämä tiedot. Poimi ne aineistosta. Kysy vain puuttu
 | Kehitetäänkö tai kehitytetäänkö järjestelmiä ja otetaanko niitä omaan käyttöön tai saatetaanko markkinoille omalla nimellä; muutetaanko hankittuja järjestelmiä | Tarjoajarooli (3 art. 3 ja 11 alakohta, 25 art.) | Ei tiedossa; rooli avoimeksi ja tarjoajan sekä käyttöönottajan velvoitteet tarvittaessa ehdollisina |
 | Rekrytointi-, HR- tai luottokäyttö ja muut liitteen III käyttötarkoitukset | Liitteen III suuririskisyys | Ei tiedossa; avoin inventaariokohta. Ehdotettu hyväksyntämenettely ei osoita nykyisen käytön puuttumista |
 | Kokousten litterointi tai muu ääntä tai kuvaa käsittelevä työkalu | Tunteiden päättely (5 art. 1 kohdan f alakohta), biometriikka | Selvitetään toimittajalta; avoin tarkistus |
+| Henkilöstön määrä Suomessa ja sovellettava yhteistoimintalaki; käsitteleekö työkalu työntekijöiden tietoja tai seuraako se työtä | Muutosneuvottelut, vuoropuhelu tai kuuleminen (1333/2021, 759/2004 21 §), suuririskisissä 26 art. 7 kohta; tietosuojan vaikutustenarviointi | Ei tiedossa; kirjaa menettely ehdollisena kokoluokittain (`hallintamalli`-skill, kohta Henkilöstön osallistuminen) |
 | Politiikan hyväksyjä ja omistaja | Hyväksyntäketju | Hyväksyntäkohta jää täytettäväksi |
 
 **Tarjoajaroolin tarkistus molemmissa poluissa:** käytä `roolit-ja-velvoitteet`-skilliä järjestelmäkohtaisesti. Oma kehitys tai kehityttäminen ja käyttöönotto omalla nimellä voi täyttää tarjoajan määritelmän myös organisaation sisäisessä käytössä (3 art. 3 ja 11 alakohta). Tarkista lisäksi 25 artiklan roolinvaihdot: suuririskisen järjestelmän uudelleenbrändäys tai olennainen muuttaminen sekä käyttötarkoituksen muutos, joka tekee järjestelmästä suuririskisen. Pelkkä valmiin työkalun käyttö tai mallirajapinnan kutsuminen ei yksin osoita tarjoajaroolia. Kirjaa politiikkaan tarkistus ennen omaa käyttöönottoa, muille toimittamista ja näitä muutoksia. Puuttuva ulkopuolinen asiakas ei ratkaise roolia.
@@ -80,7 +81,7 @@ Molemmat polut tarvitsevat nämä tiedot. Poimi ne aineistosta. Kysy vain puuttu
    - **Kevyt:** ei suuririskisiä käyttötapauksia, alle 50 henkeä. Politiikka 3–5 sivua, inventaario taulukkona, koulutus yksi tunti.
    - **Laaja:** suuririskisiä käyttötapauksia, säännelty toimiala tai suuri organisaatio. Lisäksi `hallintamalli`, `roolit-ja-velvoitteet` ja tarvittaessa `perusoikeusarviointi`.
    - Jos koko tai käyttötapaukset ovat avoinna, laadi alustava runko ja merkitse mitoitus tarkistettavaksi. Lyhyt luonnos ei tarkoita vahvistettua vähäistä riskiä. Sivumäärä ja koulutuksen kesto ovat suunnitteluehdotuksia.
-4. **Politiikka.** Laadi pohjalla `../../pohjat/kayttoperiaatteet.md`. Sisällytä vähintään: soveltamisala (myös agentit ja liittimet), hyväksytyt työkalut ja hankintaportti, tietoluokat, ihmisen vastuu, kielletyt käytännöt ajantasaisina (`hae_artikla` artikla "5"), avoimuus roolin mukaan (`avoimuus`-skill), tekoälylukutaidon tukeminen (4 art.), poikkeamat, tarjoajaportti, sääntelyseuranta ja seuraamukset organisaation kokoluokan mukaan.
+4. **Politiikka.** Laadi pohjalla `../../pohjat/kayttoperiaatteet.md`. Sisällytä vähintään: soveltamisala (myös agentit ja liittimet), hyväksytyt työkalut ja hankintaportti, tietoluokat, ihmisen vastuu, kielletyt käytännöt ajantasaisina (`hae_artikla` artikla "5"), avoimuus roolin mukaan (`avoimuus`-skill), tekoälylukutaidon tukeminen (4 art.), poikkeamat, tarjoajaportti, henkilöstön osallistuminen ja tietosuojan vaikutustenarviointi tarvittaessa (`../../pohjat/dpia-tekoalylisaosa.md`), sääntelyseuranta ja seuraamukset organisaation kokoluokan mukaan.
 5. **Käyttöönottoaineisto.** Inventaario (`../../pohjat/tekoalyinventaario.csv`), koulutusrunko roolin mukaan, kaksisivuinen pikaopas ja saate. Avoimuusilmoitukset tarvittaessa (`../../pohjat/avoimuusilmoitukset.md`), toimittajakysely uusille työkaluille (`../../pohjat/toimittajakysely.md`).
 6. **Väliraportti ja viimeistely.** Näytä politiikan rakenne ja keskeiset valinnat ennen koko aineiston tuottamista. Viimeistele vastausten tai oletusten perusteella.
 
@@ -89,6 +90,7 @@ Molemmat polut tarvitsevat nämä tiedot. Poimi ne aineistosta. Kysy vain puuttu
 - Jokaisella päivämäärällä, artiklalla, euromäärällä ja viranomaisella on lähde. Erota mukana olevaan aineistoon vertaaminen verkossa tehtävästä ajantasaisuustarkistuksesta; työkalun ajo ei päivitä sen säädösaineistoa.
 - Velvoitteet on kohdistettu oikealle roolille: tarjoajan velvoitteita ei esitetä käyttöönottajan velvoitteina.
 - Sisäinen käyttö on mukana tarjoajaroolin arvioinnissa. Tuntematon rooli, julkisen palvelun asema tai käyttötarkoitus ei ole muuttunut kielteiseksi vastaukseksi.
+- Henkilöstöä koskevan käytön yhteistoiminta- tai kuulemismenettely on kuvattu tai merkitty avoimeksi.
 - Organisaation omat säännöt on erotettu lakisääteisistä vaatimuksista.
 - Asiakirjat ovat keskenään johdonmukaisia.
 - Avoimet kohdat ja oletukset on lueteltu saatteessa.

@@ -33,10 +33,20 @@ Tarkista ajantasainen tila työkalulla `aikataulu`.
    - johto ja hallitus: sääntely, vastuut, riskikuva.
 
    Dokumentoi toimet: kenelle, mitä, milloin ja miten osaamista seurataan. Dokumentointi osoittaa, että velvoitetta on noudatettu.
-4. **Hankinta ja toimittajat.** Jokainen uusi tekoälyjärjestelmä tai -ominaisuus kulkee kevyen portin läpi: inventaarioon kirjaus, esiluokitus (`ehdota_kayttotapaus`), tarvittaessa `riskiluokittelu`, toimittajakysely (`../../pohjat/toimittajakysely.md`) sekä sopimusehdot tietojen antamisesta, vaaratilanteista ja muutoksista.
-5. **Elinkaari ja muutokset.** Käyttötarkoituksen muutos, oma brändäys tai merkittävä muutos voi tehdä yrityksestä tarjoajan (25 art.). Muutokset kulkevat saman portin kautta.
-6. **Poikkeamat ja vaaratilanteet.** Selkeä ilmoituskanava. Suuririskisissä käyttöönottaja ilmoittaa riskeistä ja vakavista vaaratilanteista tarjoajalle ja viranomaiselle (26 art. 5 kohta, 73 art.).
-7. **Seuranta.** Inventaario, luokittelut ja ohjeet tarkistetaan vähintään vuosittain sekä aina sääntelyn muuttuessa. Komission ohjeet, käytännesäännöt ja kansallinen laki päivittyvät.
+4. **Hankinta ja toimittajat.** Jokainen uusi tekoälyjärjestelmä tai -ominaisuus kulkee kevyen portin läpi: inventaarioon kirjaus, esiluokitus (`ehdota_kayttotapaus`), tarvittaessa `riskiluokittelu`, toimittajakysely (`../../pohjat/toimittajakysely.md`, myös sen sopimusehtojen osio) sekä henkilötietoja käsiteltäessä tietosuojan vaikutustenarvioinnin tarve (`../../pohjat/dpia-tekoalylisaosa.md`).
+5. **Henkilöstön osallistuminen.** Tekoälyn käyttöönotto henkilöstön työssä voi edellyttää yhteistoimintamenettelyä, vaikka järjestelmä ei olisi suuririskinen. Tarkista organisaation koko ja sovellettava laki:
+   - Yhteistoimintalakia (1333/2021) sovelletaan kokonaan, kun työntekijöitä on säännöllisesti vähintään 50 (2 §). Uuden teknologian käyttöönotto, josta aiheutuu olennaisia muutoksia työtehtäviin, työmenetelmiin tai työjärjestelyihin, kuuluu muutosneuvotteluihin (16 § 2 mom. 2 k.). Teknisen valvonnan käyttötarkoitus, käyttöönotto ja menetelmät käsitellään vuoropuhelussa (12 § 3 k.).
+   - Työnantaja, jolla on säännöllisesti 20–49 työntekijää, käsittelee 12 §:n asiat työpaikkakohtaisessa vuoropuhelussa (7 a §). Lain 2 §:ssä luetellaan, mitä säännöksiä näihin työnantajiin sovelletaan; 16 § ei ole luettelossa.
+   - Jos yhteistoimintalakeja ei sovelleta, työntekijöille varataan tilaisuus tulla kuulluiksi ennen teknistä valvontaa koskevaa päätöstä (759/2004 21 §).
+   - Menettelyn jälkeen työnantaja määrittelee teknisen valvonnan käyttötarkoituksen ja menetelmät ja tiedottaa niistä työntekijöille organisaation koosta riippumatta (759/2004 21 §).
+   - Julkisella sektorilla sovelletaan omia yhteistoimintalakeja, esimerkiksi kunnissa ja hyvinvointialueilla lakia 449/2007 ja valtion virastoissa lakia 1233/2013. Tarkista niiden menettelyt.
+   - Suuririskisen järjestelmän käyttöönottajan, joka on työnantaja, on ilmoitettava työntekijöiden edustajille ja asianomaisille työntekijöille ennen käyttöönottoa työpaikalla (26 art. 7 kohta). Laiminlyönnistä voidaan määrätä seuraamusmaksu (1377/2025 18 § 5 k.).
+   - Tunteiden päätteleminen työpaikalla on kielletty muuten kuin lääketieteellisistä tai turvallisuussyistä (5 art. 1 kohdan f alakohta).
+
+   Tulkinta: työntekijän toimintaa seuraava tai mittaava tekoälytoiminto voi olla teknistä valvontaa, vaikka työkalu on hankittu muuhun tarkoitukseen. Kirjaa arvio ja menettely inventaarioon.
+6. **Elinkaari ja muutokset.** Käyttötarkoituksen muutos, oma brändäys tai merkittävä muutos voi tehdä yrityksestä tarjoajan (25 art.). Muutokset kulkevat saman portin kautta.
+7. **Poikkeamat ja vaaratilanteet.** Selkeä ilmoituskanava. Suuririskisissä käyttöönottaja seuraa järjestelmän toimintaa, ilmoittaa 79 art. 1 kohdassa tarkoitetusta riskistä tarjoajalle tai jakelijalle ja markkinavalvontaviranomaiselle ja keskeyttää käytön sekä ilmoittaa vakavasta vaaratilanteesta ensin tarjoajalle ja sitten tuojalle tai jakelijalle ja viranomaiselle (26 art. 5 kohta). Vakavien vaaratilanteiden ilmoittaminen 73 artiklan mukaisesti on tarjoajan velvoite; käyttöönottajaan sitä sovelletaan soveltuvin osin vain, jos tarjoajaa ei tavoiteta.
+8. **Seuranta.** Inventaario, luokittelut ja ohjeet tarkistetaan vähintään vuosittain sekä aina sääntelyn muuttuessa. Komission ohjeet, käytännesäännöt ja kansallinen laki päivittyvät.
 
 ## ISO/IEC 42001
 
