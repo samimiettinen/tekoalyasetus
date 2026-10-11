@@ -45,7 +45,14 @@ Organisaatio tukee henkilöstön tekoälylukutaitoa (tekoälyasetus 4 art.): [ko
 
 Ilmoita virheellisestä, vahingollisesta tai epäilyttävästä tekoälyn toiminnasta sekä tietovuodoista: [kanava]. Ilmoittajaa ei rangaista vilpittömässä mielessä tehdystä ilmoituksesta.
 
-## 9. Vastuut
+## 9. Henkilöstö ja henkilötiedot
+
+- Tekoälyn käyttöönotto, joka muuttaa olennaisesti työtehtäviä, työmenetelmiä tai työjärjestelyjä tai jolla seurataan työtä, käsitellään [muutosneuvotteluissa / vuoropuhelussa / kuulemalla työntekijöitä] ennen päätöstä. Menettely riippuu henkilöstön määrästä ja sovellettavasta yhteistoimintalaista (yhteistoimintalaki 1333/2021, laki yksityisyyden suojasta työelämässä 759/2004 21 §, julkisella sektorilla oma yhteistoimintalaki).
+- Teknisen valvonnan käyttötarkoitus ja menetelmät: [kuvaus tai linkki]. Työntekijöille tiedotetaan niistä.
+- Suuririskisestä järjestelmästä ilmoitetaan työntekijöiden edustajille ja asianomaisille työntekijöille ennen käyttöönottoa työpaikalla (tekoälyasetus 26 art. 7 kohta).
+- Kun tekoälyä käytetään henkilötietojen käsittelyyn, tietosuojavastaava arvioi, tarvitaanko tietosuojan vaikutustenarviointi (tietosuoja-asetus 35 art.). Tekoälyä koskeva lisäosa: `dpia-tekoalylisaosa.md`.
+
+## 10. Vastuut
 
 | Rooli | Vastuu | Henkilö |
 |---|---|---|
@@ -53,3 +60,4 @@ Ilmoita virheellisestä, vahingollisesta tai epäilyttävästä tekoälyn toimin
 | Tekoälykoordinaattori | Inventaario, luokittelut, ohjeet | |
 | Käyttötapauksen omistaja | Käyttötapauksen riskit ja velvoitteet | |
 | Tietosuojavastaava | Henkilötietojen käsittely, DPIA | |
+| Henkilöstöhallinto | Yhteistoimintamenettely, työntekijöiden tiedottaminen | |

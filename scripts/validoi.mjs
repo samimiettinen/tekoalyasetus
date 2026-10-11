@@ -112,7 +112,7 @@ export function validoi(JUURI = resolve(dirname(fileURLToPath(import.meta.url)),
   }
 
   // 4. Pohjat
-  for (const t of ['tekoalyinventaario.csv', 'riskiluokitusmuistio.md', 'perusoikeusarviointi.md', 'toimittajakysely.md', 'kayttoperiaatteet.md', 'avoimuusilmoitukset.md', 'dd-tietopyyntolista.md']) {
+  for (const t of ['tekoalyinventaario.csv', 'riskiluokitusmuistio.md', 'perusoikeusarviointi.md', 'toimittajakysely.md', 'kayttoperiaatteet.md', 'avoimuusilmoitukset.md', 'dd-tietopyyntolista.md', 'politiikan-muutosraportti.md', 'dpia-tekoalylisaosa.md']) {
     if (!existsSync(join(JUURI, 'pohjat', t))) virhe(`pohjat/${t} puuttuu`);
   }
 
