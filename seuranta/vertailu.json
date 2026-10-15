@@ -29,7 +29,7 @@
     "finlex-valvontalaki": {
       "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute-consolidated/2025/1377/fin@latest",
       "muoto": "xml",
-      "sha256": "f8e03190babb3fa6c11d83be333ce22a77c0e43558bfce9abb9a5462191185af"
+      "sha256": "e5fcf903681b195acebe67746a5792c7c014fc259719c96d4ebc92c752a61d2f"
     },
     "komissio": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
