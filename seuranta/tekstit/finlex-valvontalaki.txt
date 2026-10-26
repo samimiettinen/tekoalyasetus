@@ -29,7 +29,7 @@
 <FRBRthis value="/akn/fi/act/statute-consolidated/2025/1377/fin@/!main.xml"/>
 <FRBRuri value="/akn/fi/act/statute-consolidated/2025/1377/fin@.akn"/>
 <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/1377/ajantasa/2025-12-22/fin/xml"/>
-<FRBRdate date="2026-10-12" name="dateProduced"/>
+<FRBRdate date="2026-10-18" name="dateProduced"/>
 <FRBRdate date="2025-12-29" name="datePublished"/>
 <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
 <FRBRformat value="xml"/>
@@ -59,7 +59,7 @@
 </p>
 </preface>
 <preamble>
-<formula name="enactingClause">
+<formula eId="enactingClause" name="enactingClause">
 <p>Eduskunnan päätöksen mukaisesti säädetään: </p>
 </formula>
 </preamble>
@@ -1111,7 +1111,9 @@
 <ref href="/akn/fi/doc/government-proposal/2025/46">HE 46/2025</ref>
 </p>
 <p>TaVM 18/2025</p>
-<p>EV 162/2025</p>
+<p>
+<a href="https://www.eduskunta.fi/valtiopaivaasiakirjat/EV+162/2025">EV 162/2025</a>
+</p>
 <p>Euroopan parlamentin ja neuvoston asetus (EU) 2024/1689, EUVL L, 12.7.2024</p>
 </content>
 </hcontainer>
