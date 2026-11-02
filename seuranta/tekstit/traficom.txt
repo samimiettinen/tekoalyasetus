@@ -49,5 +49,5 @@ Sivu on viimeksi päivitetty 26.5.2026 26. toukokuuta 2026
 
 LÄHTEEN VIRALLISET LINKIT
 https://www.traficom.fi/fi/tekoalyn-saantely/tekoalyasetuksen-toimijoiden-velvollisuudet
-https://www.traficom.fi/fi/tekoalyn-saantely/tekoalyn-saantelyn-testiymparistot
+https://www.traficom.fi/fi/tekoalyn-saantely/tekoalyn-saantelyn-testiymparisto
 https://www.traficom.fi/fi/yhteystiedot/asiakaspalvelu/data-tekoaly-ja-datanhallinta-asetuksien-asiakaspalvelu
