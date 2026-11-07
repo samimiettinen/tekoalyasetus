@@ -88,16 +88,26 @@ All this complements AI Office's actions already in place to provide clarity for
 Quick links
 Any question on the AI Act? Visit our Single Information Platform
 Text of the AI Act in all EU official languages
+Questions & answers on the AI Act
+General-Purpose AI (GPAI) Code of Practice
+Code of Practice on Transparency of AI-generated Content
 AI Pact
-General-Purpose AI (GPAI) code of practice
+Enforcement of the AI Act
 Impact assessment of the regulation
 Study supporting the impact assessment
-Questions & Answers on the AI Act
-European AI Office
-Governance and enforcement of the AI Act
 Overview of the guidelines on the AI Act
 Standardisation of the AI Act
+Quick facts: Transparency rules for AI systems
 Latest News
+DIGIBYTE
+| 30 October 2026
+First Virtual Worlds Partnership Annual Forum to take place in Valencia
+DIGIBYTE
+| 14 October 2026
+Digital Talent EU Days 2026: Building the skills for Europe's digital future
+DIGIBYTE
+| 13 October 2026
+EU and Ukraine deepen cooperation on cyber security at 5th Cyber Dialogue
 PRESS RELEASE
 | 05 October 2026
 Commission holds special meeting of Scientific panel on frontier AI safety and risks
@@ -107,23 +117,14 @@ EDIC for Agri-Food launched to support digital innovation across Europe’s food
 PRESS RELEASE
 | 30 September 2026
 Three in four EU employees faced cyber threats at work, new Eurobarometer finds
-PRESS RELEASE
-| 29 September 2026
-Commission seeks feedback on challenges and way forward in the area of effect of technology on copyright
-PRESS RELEASE
-| 31 August 2026
-Executive Vice-President Virkkunen in the US for G20 Ministerial meetings
-PRESS RELEASE
-| 31 July 2026
-Commission starts enforcing AI Act rules and new transparency requirements on 2 August
 Browse Artificial intelligence
 Policy and legislation
+19-10-2026
+First harmonised standard supporting the AI Act published in the Official Journal
 20-07-2026
 Guidelines on transparency obligations for providers and deployers of AI systems
 09-07-2026
 Commission opinion on the assessment of the Code of Practice on Transparency of AI-generated Content
-07-07-2026
-EU Action Plan on Cybersecurity and Artificial Intelligence
 More
 Report / Study
 29-09-2026
@@ -164,11 +165,12 @@ The AI Act Whistleblower Tool empowers individuals to securely submit a report a
 AI Act Complaints tool
 The AI Act Complaints Tool allows individuals and organisations to submit complaints to the AI...
 Last update
-3 August 2026
+19 October 2026
 Print as PDF
 
 LÄHTEEN VIRALLISET LINKIT
 https://digital-strategy.ec.europa.eu/en/factpages/ai-continent-action-plan
+https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems
 https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act
 https://digital-strategy.ec.europa.eu/en/library/ai-office-publishes-frontier-ai-expert-findings-eu-competitiveness-sovereignty-and-security
 https://digital-strategy.ec.europa.eu/en/library/commission-internal-use-artificial-intelligence
@@ -180,6 +182,7 @@ https://digital-strategy.ec.europa.eu/en/library/eu-action-plan-cybersecurity-an
 https://digital-strategy.ec.europa.eu/en/library/explanatory-notice-and-template-public-summary-training-content-general-purpose-ai-models
 https://digital-strategy.ec.europa.eu/en/library/factsheet-action-plan-cybersecurity-and-artificial-intelligence
 https://digital-strategy.ec.europa.eu/en/library/factsheet-international-digital-strategy-european-union
+https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal
 https://digital-strategy.ec.europa.eu/en/library/guidelines-scope-obligations-providers-general-purpose-ai-models-under-ai-act
 https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems
 https://digital-strategy.ec.europa.eu/en/library/horizon-europe-new-projects-ai-data-and-robotics-2024-edition
@@ -191,11 +194,11 @@ https://digital-strategy.ec.europa.eu/en/library/study-eus-strategic-digital-tec
 https://digital-strategy.ec.europa.eu/en/library/study-supporting-impact-assessment-ai-regulation
 https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force
 https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks
-https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright
-https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august
+https://digital-strategy.ec.europa.eu/en/news/digital-talent-eu-days-2026-building-skills-europes-digital-future
 https://digital-strategy.ec.europa.eu/en/news/edic-agri-food-launched-support-digital-innovation-across-europes-food-and-agriculture-sector
 https://digital-strategy.ec.europa.eu/en/news/eu-agrees-simplify-ai-rules-boost-innovation-and-ban-nudification-apps-protect-citizens
-https://digital-strategy.ec.europa.eu/en/news/executive-vice-president-virkkunen-us-g20-ministerial-meetings
+https://digital-strategy.ec.europa.eu/en/news/eu-and-ukraine-deepen-cooperation-cyber-security-5th-cyber-dialogue
+https://digital-strategy.ec.europa.eu/en/news/first-virtual-worlds-partnership-annual-forum-take-place-valencia
 https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines
 https://digital-strategy.ec.europa.eu/en/news/three-four-eu-employees-faced-cyber-threats-work-new-eurobarometer-finds
 https://digital-strategy.ec.europa.eu/en/node/9745/printable/pdf
@@ -206,7 +209,6 @@ https://digital-strategy.ec.europa.eu/en/policies/ai-act-whistleblower-tool
 https://digital-strategy.ec.europa.eu/en/policies/ai-advisory-forum
 https://digital-strategy.ec.europa.eu/en/policies/ai-board
 https://digital-strategy.ec.europa.eu/en/policies/ai-factories
-https://digital-strategy.ec.europa.eu/en/policies/ai-office
 https://digital-strategy.ec.europa.eu/en/policies/ai-pact
 https://digital-strategy.ec.europa.eu/en/policies/ai-scientific-panel
 https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy
@@ -224,5 +226,4 @@ https://digital-strategy.ec.europa.eu/en/related-content?topic=119&type=25
 https://digital-strategy.ec.europa.eu/en/related-content?topic=119&type=28
 https://ec.europa.eu/commission/presscorner/detail/en/ip_24_383
 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689
 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202601744
