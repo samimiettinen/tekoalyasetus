@@ -6,9 +6,7 @@ MCP:n säädösdata, luokittelusäännöt ja oikeudelliset tarkistuspäivät sä
 
 | Lähde | Havainto | Aiempi SHA-256 | Uusi SHA-256 |
 |---|---|---|---|
-| [Valvontalain 1377/2025 ajantasainen XML](https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute-consolidated/2025/1377/fin@latest) | muuttunut | e5fcf903681b195acebe67746a5792c7c014fc259719c96d4ebc92c752a61d2f | a2532759609a66d35f0e492262f02172139e4711f7ef3d6476bbe929db8a05c8 |
-| [Komission tekoälyasetussivu ja ohjeiden linkit](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) | muuttunut | f9a769aa7c7edbd2d3c35a0bc9228e9a3afd7848d31edad9311f399363e9ad1d | 1c6dad487d5939a7fc54314609656ff2a87c61c50de4093874da186c755abf4a |
-| [Traficom: tietoa EU:n tekoälyasetuksesta](https://www.traficom.fi/fi/tekoalyn-saantely/tietoa-eun-tekoalyasetuksesta) | muuttunut | 73cef46e1033d9a65f6747af7f6f9c0b08b762569e92383a86bc81b9eeb1b0c8 | 9790bff653b2f5d9fe2ffac69077b5ad0fa6d907dad20fbaf03a9bf04a477420 |
+| [Komission tekoälyasetussivu ja ohjeiden linkit](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) | muuttunut | 1c6dad487d5939a7fc54314609656ff2a87c61c50de4093874da186c755abf4a | 7f2f46be14589d57f7fd482ebbb0b9fac38eeed6f17cf4a23a79bd14e40860b0 |
 
 ## Tarkistettava
 

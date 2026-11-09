@@ -99,6 +99,9 @@ Overview of the guidelines on the AI Act
 Standardisation of the AI Act
 Quick facts: Transparency rules for AI systems
 Latest News
+PRESS RELEASE
+| 05 November 2026
+Commission launches Education and Skills package to tackle declining basic skills, rapid digital change and teacher shortages
 DIGIBYTE
 | 30 October 2026
 First Virtual Worlds Partnership Annual Forum to take place in Valencia
@@ -114,9 +117,6 @@ Commission holds special meeting of Scientific panel on frontier AI safety and r
 DIGIBYTE
 | 01 October 2026
 EDIC for Agri-Food launched to support digital innovation across Europe’s food and agriculture sector
-PRESS RELEASE
-| 30 September 2026
-Three in four EU employees faced cyber threats at work, new Eurobarometer finds
 Browse Artificial intelligence
 Policy and legislation
 19-10-2026
@@ -127,12 +127,12 @@ Guidelines on transparency obligations for providers and deployers of AI systems
 Commission opinion on the assessment of the Code of Practice on Transparency of AI-generated Content
 More
 Report / Study
+04-11-2026
+Executive Vice-President Virkkunen updates Council and Parliament on simplification, implementation and enforcement of the digital rulebook
 29-09-2026
 Study on the EU's strategic digital technologies for the next EU research & innovation programme
 15-07-2026
 AI Office publishes frontier AI expert findings on EU competitiveness, sovereignty and security
-13-07-2026
-New feasibility study for introducing an EU-level registry of Text and Data Mining opt-out
 More
 Factsheet / infographic
 07-07-2026
@@ -179,6 +179,7 @@ https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines
 https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act
 https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal
 https://digital-strategy.ec.europa.eu/en/library/eu-action-plan-cybersecurity-and-artificial-intelligence
+https://digital-strategy.ec.europa.eu/en/library/executive-vice-president-virkkunen-updates-council-and-parliament-simplification-0
 https://digital-strategy.ec.europa.eu/en/library/explanatory-notice-and-template-public-summary-training-content-general-purpose-ai-models
 https://digital-strategy.ec.europa.eu/en/library/factsheet-action-plan-cybersecurity-and-artificial-intelligence
 https://digital-strategy.ec.europa.eu/en/library/factsheet-international-digital-strategy-european-union
@@ -188,19 +189,18 @@ https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligat
 https://digital-strategy.ec.europa.eu/en/library/horizon-europe-new-projects-ai-data-and-robotics-2024-edition
 https://digital-strategy.ec.europa.eu/en/library/impact-assessment-regulation-artificial-intelligence
 https://digital-strategy.ec.europa.eu/en/library/living-repository-foster-learning-and-exchange-ai-literacy
-https://digital-strategy.ec.europa.eu/en/library/new-feasibility-study-introducing-eu-level-registry-text-and-data-mining-opt-out
 https://digital-strategy.ec.europa.eu/en/library/rise-intelligent-edge-insights-metaos
 https://digital-strategy.ec.europa.eu/en/library/study-eus-strategic-digital-technologies-next-eu-research-innovation-programme
 https://digital-strategy.ec.europa.eu/en/library/study-supporting-impact-assessment-ai-regulation
 https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force
 https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks
+https://digital-strategy.ec.europa.eu/en/news/commission-launches-education-and-skills-package-tackle-declining-basic-skills-rapid-digital-change
 https://digital-strategy.ec.europa.eu/en/news/digital-talent-eu-days-2026-building-skills-europes-digital-future
 https://digital-strategy.ec.europa.eu/en/news/edic-agri-food-launched-support-digital-innovation-across-europes-food-and-agriculture-sector
 https://digital-strategy.ec.europa.eu/en/news/eu-agrees-simplify-ai-rules-boost-innovation-and-ban-nudification-apps-protect-citizens
 https://digital-strategy.ec.europa.eu/en/news/eu-and-ukraine-deepen-cooperation-cyber-security-5th-cyber-dialogue
 https://digital-strategy.ec.europa.eu/en/news/first-virtual-worlds-partnership-annual-forum-take-place-valencia
 https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines
-https://digital-strategy.ec.europa.eu/en/news/three-four-eu-employees-faced-cyber-threats-work-new-eurobarometer-finds
 https://digital-strategy.ec.europa.eu/en/node/9745/printable/pdf
 https://digital-strategy.ec.europa.eu/en/policies/ai-act-complaints-tool
 https://digital-strategy.ec.europa.eu/en/policies/ai-act-governance-and-enforcement
