@@ -6,8 +6,7 @@ MCP:n säädösdata, luokittelusäännöt ja oikeudelliset tarkistuspäivät sä
 
 | Lähde | Havainto | Aiempi SHA-256 | Uusi SHA-256 |
 |---|---|---|---|
-| [Cellar: säädösmuutokset, oikaisut, konsolidoinnit ja oikeusperustat](https://publications.europa.eu/webapi/rdf/sparql) | muuttunut | ce0c8263e493387d477552fe87053c8c7b630b474e9dbe142c98557523db843d | e7ede568624ba3b2b02031682cbd3d73e56b5bd1fae09bc55d37c135fac50843 |
-| [Komission tekoälyasetussivu ja ohjeiden linkit](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) | muuttunut | 1c6dad487d5939a7fc54314609656ff2a87c61c50de4093874da186c755abf4a | f6bc1ac81fcd36b8086bd154b9057eca5cbe73429d7f1ee1725ca339f15432ac |
+| [Komission tekoälyasetussivu ja ohjeiden linkit](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) | muuttunut | f6bc1ac81fcd36b8086bd154b9057eca5cbe73429d7f1ee1725ca339f15432ac | 56339e15b642c344d6483b2493a28070b733fcf65fce5043a6aba303407dd565 |
 
 ## Tarkistettava
 
